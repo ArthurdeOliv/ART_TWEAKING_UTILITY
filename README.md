@@ -1,4 +1,4 @@
-# Art Tweaking Utility
+# ART Tweaking Utility
 
 <p align="center">
   **Uma ferramenta para otimização, personalização e diagnóstico do Windows.**
