@@ -1,0 +1,16 @@
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Arquivos gerados pelo utilitario durante testes
+Art_Backups/
+*.reg
+*.log
+*.tmp

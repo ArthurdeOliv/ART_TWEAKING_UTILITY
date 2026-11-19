@@ -1,0 +1,43 @@
+name: Reportar um problema
+description: Algo não funcionou como esperado
+labels: ["bug"]
+body:
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do utilitário
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Versão do Windows
+      options:
+        - Windows 10
+        - Windows 11
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware (CPU e GPU)
+      placeholder: "Ex.: Ryzen 5 5600 / RTX 3060"
+  - type: input
+    id: opcao
+    attributes:
+      label: Opção do menu usada
+      placeholder: "Ex.: 3 - Ajustes do Windows"
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu
+      description: Descreva o problema e, se possível, cole a mensagem de erro ou um print.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse

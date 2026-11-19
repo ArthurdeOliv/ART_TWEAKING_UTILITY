@@ -1,0 +1,12 @@
+# Scripts do Windows: gravar exatamente como estao (CRLF), sem conversao do Git.
+# Arquivos .cmd/.bat com final de linha LF podem quebrar goto e labels.
+*.cmd -text
+*.bat -text
+
+# Demais arquivos: o Git decide
+* text=auto
+*.md  text eol=lf
+*.yml text eol=lf
+*.png binary
+*.jpg binary
+*.gif binary

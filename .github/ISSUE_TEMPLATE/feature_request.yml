@@ -1,0 +1,20 @@
+name: Sugerir um ajuste ou melhoria
+description: Ideia de novo ajuste, opção ou correção
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a ideia?
+    validations:
+      required: true
+  - type: textarea
+    id: alteracao
+    attributes:
+      label: O que seria alterado
+      description: Chave de registro, serviço, tarefa ou comando.
+  - type: textarea
+    id: ganho
+    attributes:
+      label: Ganho esperado e risco
+      description: Como medir o resultado e como reverter.
