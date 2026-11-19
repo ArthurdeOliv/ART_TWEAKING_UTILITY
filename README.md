@@ -146,7 +146,7 @@ Algumas funcionalidades dependem da versão do Windows e do hardware utilizado.
 
 ## Como utilizar
 
-1. Execute o arquivo `Art_TWEAKING_UTILITY.cmd`.
+1. Execute o arquivo `ART_TWEAKING_UTILITY.cmd`.
 2. Autorize a execução como administrador quando necessário.
 3. Escolha o perfil de utilização do computador.
 4. Navegue pelos menus e selecione os ajustes desejados.
