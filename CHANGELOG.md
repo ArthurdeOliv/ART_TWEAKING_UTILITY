@@ -3,6 +3,48 @@
 Todas as mudanças relevantes deste projeto são registradas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.1.1] - 2026-11-21
+
+Versão de limpeza: remove ajustes sem efeito comprovado nos testes, ou que mexiam em proteções do sistema sem necessidade, e organiza os menus.
+
+### Alterado
+- Título do menu principal atualizado para **0.1.1** e arte do título redimensionada para ocupar toda a largura da caixa.
+- Alinhamento dos menus corrigido (borda do rodapé do menu principal) e opção **X – Sair** centralizada na mesma linha de **R** e **P**.
+- Telas de boas-vindas, ponto de restauração e perfil redesenhadas e alinhadas.
+- **Otimizações gerais:** passou a incluir os ajustes de jogos em janela, VRR e Overlay (MPO), que eram a antiga opção 14. Agora eles não apagam as outras opções gráficas do usuário.
+- **Ajustes de CPU:** não pede mais para escolher entre AMD e Intel. Um único conjunto de ajustes (Core Parking, resfriamento, estado mínimo do processador em 100% e Throttle States).
+- **Ajustes de disco:** a economia de energia do SSD agora é feita pelo Idle Power Management do StorPort (SSD/NVMe), com contagem de dispositivos ajustados. Trim/desfragmentação otimiza todas as unidades encontradas e informa erros.
+- **Corrigir arquivos:** execução em 3 etapas (DISM RestoreHealth, SFC e limpeza de componentes do WinSxS), com mensagem de erro do DISM/defrag quando algo falha.
+- **Ajustes de energia:** Timer Coalescing substituído por Link State Power Management.
+- **Ajustes do Windows:** efeitos visuais aplicados direto em Personalizar, sem abrir a janela de Opções de Desempenho.
+- **Debloat:** a lista de apps desinstalados foi reduzida e passou a incluir 3D Viewer e os apps Bing (`Microsoft.Bing*`).
+- **Mitigações:** ao reativar, o utilitário também reativa o VirtualizationBasedSecurity.
+- Otimização de **GPU**: adicionado ajuste de cache de memória do NTFS e, para AMD, Adaptive De-Interlacing.
+- **USB:** aviso para reiniciar o PC depois de aplicar os ajustes.
+- A numeração do menu mudou: **Relatório / Checagens** passou da opção 15 para a **14**.
+
+### Adicionado
+- Reversão própria do Debloat (opção **R** dentro do Debloat), com a opção **A – Reverter tudo** e uma reversão para cada item: telemetria, apps, telemetria do Office, impressão e mapas, Pesquisa/Cortana, autologgers e programa de experiência.
+- Em **Reversões / Correções**, nova opção 16: reativar o Gerenciamento de Energia Ocioso do StorPort.
+- Opção **X – Voltar** na tela de tamanho da fila de dados do mouse e teclado.
+
+### Removido
+- Opção **14 – Otimização de Tela Cheia** do menu principal (conteúdo movido para as Otimizações gerais).
+- Escolha entre Windows 10 e Windows 11 do ajuste de tela cheia (FSE).
+- **Modo Jogo** como opção separada (ativar/desativar) e a pergunta de Modo Jogo ao aplicar a categoria Windows.
+- **Desativar Bluetooth** e **Desativar Manutenção** dos Ajustes do Windows (a reversão continua disponível em Reversões / Correções).
+- **Desativar GameDVR** e **Desativar Xbox** do Debloat (a reversão continua disponível em Reversões / Correções).
+- **Excluir planos de energia inúteis**.
+- **Mitigações:** deixaram de ser desativados ExceptionChainValidation, SEHOP, CFG, Protection Mode e ASLR.
+- **CPU:** Distribute Timers, TSX, Event Processor, todos os processadores lógicos, C-States e P-States.
+- **Otimizações gerais:** prioridade de IRQ8/IRQ16, IO Time Stamp e redução do tempo de encerramento de processos.
+- **Memória/RAM:** ajuste de Cache de Sistema Grande e "Otimizando Memory Management".
+- **GPU:** alocação de memória contígua, Write Combining, Preemption, consulta de VRAM, Anti-Aliasing, Anisotropic Filtering, redução automática de profundidade de cor, De-Lag, Frame Rate Target, DMA e Thermal Throttling.
+- **USB:** Thread Priority, MSI Mode e prioridade de dispositivos USB.
+- **Mouse e teclado:** CSRSS em tempo real.
+- Da lista de desinstalação do Debloat: Alarmes, Câmera, Email e Calendário, Gravador de Voz, Seu Telefone, Groove Música e as extensões HEIF, WebP e Web Media.
+- Atalho **[T] Abrir Gerenciador de Tarefas** das telas de GPU, CPU, RAM e fila de dados.
+
 ## [0.1.0] - 2026-11-19
 
 ### Adicionado

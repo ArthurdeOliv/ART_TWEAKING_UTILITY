@@ -6,7 +6,7 @@ body:
     id: versao
     attributes:
       label: Versão do utilitário
-      placeholder: "0.1.0"
+      placeholder: "0.1.1"
     validations:
       required: true
   - type: dropdown
