@@ -1,12 +1,17 @@
+# Padrao: o Git decide o final de linha dos demais arquivos
+* text=auto
+
 # Scripts do Windows: gravar exatamente como estao (CRLF), sem conversao do Git.
+# Estas regras ficam DEPOIS do "* text=auto" de proposito: a ultima regra vence.
 # Arquivos .cmd/.bat com final de linha LF podem quebrar goto e labels.
 *.cmd -text
 *.bat -text
 
-# Demais arquivos: o Git decide
-* text=auto
+# Textos que devem ficar sempre em LF
 *.md  text eol=lf
 *.yml text eol=lf
+
+# Binarios
 *.png binary
 *.jpg binary
 *.gif binary
