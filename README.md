@@ -20,16 +20,16 @@ Permite aplicar ajustes no sistema, gerenciar configurações de hardware e soft
 Ao abrir, o utilitário pergunta se você quer criar um ponto de restauração e, em seguida, qual é o perfil do seu PC:
 
 - **PC recém-formatado:** instala VC++, DirectX e .NET via winget, abre a página oficial de driver da sua GPU, impede o Windows Update de trocar o driver de vídeo e desativa Delivery Optimization, Inicialização Rápida e apps em segundo plano.
-- **PC em uso:** segue direto para o menu principal. O relatório do que está pesando no sistema fica na opção 14.
+- **PC em uso:** segue direto para o menu principal. O relatório do que está pesando no sistema fica na opção 15.
 
 ## Funcionalidades
 
-O menu principal tem as opções numeradas de 1 a 14, mais as letras **R**, **X** e **P**.
+O menu principal tem as opções numeradas de 1 a 15, mais as letras **R**, **X** e **P**.
 
 ### 1. Otimizações gerais
 - Ajustes gerais de latência e desempenho no Registro e no `bcdedit`.
 - Ajustes de inicialização e de execução do sistema.
-- Ajustes para jogos em janela, VRR e Overlay (MPO), respeitando a configuração de tela cheia de cada jogo e sem apagar as outras opções gráficas.
+- Respeita a configuração de tela cheia de cada jogo, sem apagar as outras opções gráficas. HAGS e MPO ficam em **GPU > Ajustes de Jogos e Tela**.
 
 ### 2. Otimização de mouse e teclado
 - Ajustes de Registro para mouse e teclado.
@@ -56,10 +56,14 @@ O menu principal tem as opções numeradas de 1 a 14, mais as letras **R**, **X*
 
 ### 7. Ajustes de GPU
 - Otimizações específicas para NVIDIA, AMD e Intel.
+- **Ajustes de Jogos e Tela:** HAGS, MPO e otimizações de tela cheia.
+- **Perfil por jogo:** prioridade de CPU e GPU para um jogo escolhido.
+- **GPU integrada Intel:** plano gráfico, efeitos visuais e memória de vídeo.
 
 ### 8. Ajustes de CPU
 - Um único conjunto de ajustes para processadores AMD e Intel, sem precisar escolher o fabricante.
 - Desativação de Core Parking, resfriamento ativo, estado mínimo do processador em 100% e Throttle States.
+- Ajustes extras: boost agressivo, CPU híbrida e afinidade de interrupções.
 
 ### 9. Ajustes de USB
 - Ajustes de gerenciamento de energia das portas e dispositivos USB.
@@ -71,24 +75,36 @@ O menu principal tem as opções numeradas de 1 a 14, mais as letras **R**, **X*
 ### 11. Debloat do sistema
 - Desativação de telemetria, telemetria do Office, impressão e mapas, autologgers e programa de experiência do cliente.
 - Desinstalação de apps pré-instalados desnecessários e da Cortana.
+- **Otimizar Serviços** com preset seguro.
+- **Modo Jogo:** pausa serviços pesados enquanto você joga e retoma depois.
+- Desativação de **Game DVR e Game Bar**.
 - Reversão própria (opção **R**), com **A – Reverter tudo** ou item por item.
 
 ### 12. Ajustes de disco
 - Trim nos SSDs e desfragmentação nos HDs, em todas as unidades encontradas.
 - Cache de gravação do usuário.
 - Desativação da economia de energia do SSD/NVMe (Idle Power Management do StorPort).
+- Verificação de TRIM e do modo do controlador (AHCI/NVMe).
+- Otimização de SSD: desativa a indexação e a desfragmentação agendada.
+- Mover a pasta Temp para a unidade mais rápida.
 
 ### 13. Corrigir arquivos
 - Atalho para as ferramentas nativas de reparo do Windows, em 3 etapas: DISM RestoreHealth, verificação de arquivos do sistema (SFC) e limpeza de componentes do WinSxS.
 
-### 14. Relatório / Checagens
+### 14. Ajustes de rede
+- **Otimizações de rede:** desativa a economia de energia da placa, Gigabit Lite, EEE e Nagle, coloca velocidade e duplex no máximo e ajusta RSS e TCP. A placa reinicia e a conexão cai por alguns segundos.
+- **DNS:** testa os servidores e aplica o mais rápido.
+- **Wi-Fi:** ajustes do adaptador, análise dos canais vizinhos e teste de estabilidade.
+- Reversão própria (opção **R** dentro da aba).
+
+### 15. Relatório / Checagens
 - **Relatório do PC:** notebook ou desktop, CPU, GPU, RAM por módulo, tipo de armazenamento, driver de vídeo e espaço livre.
-- **Medidor antes/depois:** salva RAM em uso, processos, serviços ativos, apps na inicialização e tempo de boot, e compara as duas medições depois dos ajustes.
+- **Medidor antes/depois:** salva RAM em uso, processos, serviços ativos, apps na inicialização, tempo em DPC e interrupções e tempo de boot, e compara as duas medições depois dos ajustes.
 - **Verificações de hardware:** RAM abaixo da velocidade nominal (XMP/EXPO desligado), taxa de atualização do monitor abaixo do máximo, saúde do SSD e idade do driver de vídeo.
 - **PC em uso:** mostra os processos que mais usam RAM, os itens de inicialização e os serviços de terceiros. Só exibe, quem decide o que desligar é você.
 
 ### R. Reversões / Correções
-- Reverte ajustes específicos aplicados pelo utilitário (planos de energia, apps, Xbox, GameDVR, notificações, Bluetooth, hibernação, manutenção, impressão e mapas, SmartScreen, diagnósticos, relatório de erros, ajustes do Windows 11 e de energia e Idle Power Management do StorPort).
+- Reverte ajustes específicos aplicados pelo utilitário (planos de energia, apps, Xbox, GameDVR, notificações, Bluetooth, hibernação, manutenção, impressão e mapas, SmartScreen, diagnósticos, relatório de erros, ajustes do Windows 11 e de energia e Idle Power Management do StorPort, Rede, Jogos e Tela, Disco, CPU extra e GPU integrada Intel).
 
 ### P. Backup / Restauração
 - Criação de ponto de restauração do Windows.
@@ -158,6 +174,6 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 ## Status do projeto
 
-**Versão atual: 0.1.1 — Em desenvolvimento.**
+**Versão atual: 0.1.2 — Em desenvolvimento.**
 
 Novas funcionalidades, melhorias de compatibilidade, correções e otimizações estão previstas para as próximas versões.
