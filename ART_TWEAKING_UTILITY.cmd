@@ -1,5 +1,5 @@
 @echo off
-Set Version=0.1.1
+Set Version=0.1.2
 
 :: Color Codes
 set w=[97m
@@ -26,7 +26,7 @@ chcp 65001 >nul 2>&1
 cls 
 echo.
 echo.
-echo.               %w%ART TWEAKING UTILITY V0.1.1 %B%
+echo.               %w%ART TWEAKING UTILITY V0.1.2 %B%
 echo. %b%╔════════════════════════════════════════════════════╗
 echo. %b%║                                                    ║
 echo. %b%║   %w% Verificando privilegios de administrador... %b%    %b%║
@@ -82,7 +82,7 @@ chcp 65001 >nul 2>&1
 CLS
 echo.
 echo.
-echo.                                                                                                    %W%ART TWEAKING UTILITY VERSION 0.1.1
+echo.                                                                                                    %W%ART TWEAKING UTILITY VERSION 0.1.2
 echo.
 echo.                                          %p%░██╗░░░░░░░██╗            ██████████╗            ██╗░░░░░░░░           ░████████╗░           ░████████╗░           ███╗░░░███╗           ██████████╗
 echo.                                          %p%░██║░░██╗░░██║            ██╔═══════╝            ██║░░░░░░░░           ██╔═════██╗           ██╔═════██╗           ████╗░████║           ██╔═══════╝
@@ -105,7 +105,7 @@ echo.                                                        Digite um NUMERO no
 echo.
 echo.                                                        Voce pode desfazer a maioria das alteracoes com Reversoes / Correcoes [R] e Backup / Restauracao [P] no menu principal.
 echo.
-echo.                                                                      %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.1 * Atualizado em 21 de Novembro de 2026
+echo.                                                                      %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.2 * Atualizado em 22 de Novembro de 2026
 echo.                                          %b%════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════%w%
 echo.
 echo.
@@ -125,7 +125,7 @@ CLS
 cls
 echo.
 echo.
-echo.                                                                                           %W%ART TWEAKING UTILITY VERSION 0.1.1
+echo.                                                                                           %W%ART TWEAKING UTILITY VERSION 0.1.2
 echo.
 echo.                                                   %p%███████╗░ ████████╗ ░███████╗ █████████╗ ░██████╗░ ███████╗░ ███████╗     ██████╗░░█████╗░██╗███╗░░██╗█████████╗
 echo.                                                   %p%██╔═══██╗ ██╔═════╝ ██╔═════╝ ╚═══██╔══╝ ██╔═══██╗ ██╔═══██╗ ██╔════╝     ██╔══██╗██╔══██╗██║████╗░██║╚═══██╔══╝
@@ -397,10 +397,10 @@ echo.
 echo.
 echo.
 echo.                                             %b%╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-echo.                                             %b%║%p%░░░░░█████╗░██████╗░████████╗░░░░░░░░░░██╗░░░██╗████████╗██╗██╗░░░░░██╗████████╗██╗░░░██╗░░░░░░░░░░█████╗░░░░░░███╗░░░░░░░███╗░░░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░██╔══██╗██╔══██╗╚══██╔══╝░░░░░░░░░░██║░░░██║╚══██╔══╝██║██║░░░░░██║╚══██╔══╝╚██╗░██╔╝░░░░░░░░░██╔══██╗░░░░████║░░░░░░████║░░░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░███████║██████╔╝░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░╚████╔╝░░░░░░░░░░██║░░██║░░░██╔██║░░░░░██╔██║░░░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░██╔══██║██╔══██╗░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░░╚██╔╝░░░░░░░░░░░██║░░██║░░░╚═╝██║░░░░░╚═╝██║░░░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░░█████╗░██████╗░████████╗░░░░░░░░░░██╗░░░██╗████████╗██╗██╗░░░░░██╗████████╗██╗░░░██╗░░░░░░░░░░█████╗░░░░░░███╗░░░░░██████╗░░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░██╔══██╗██╔══██╗╚══██╔══╝░░░░░░░░░░██║░░░██║╚══██╔══╝██║██║░░░░░██║╚══██╔══╝╚██╗░██╔╝░░░░░░░░░██╔══██╗░░░░████║░░░░░╚════██╗░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░███████║██████╔╝░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░╚████╔╝░░░░░░░░░░██║░░██║░░░██╔██║░░░░░░░███╔═╝░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░██╔══██║██╔══██╗░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░░╚██╔╝░░░░░░░░░░░██║░░██║░░░╚═╝██║░░░░░██╔══╝░░░░░░%b%%b%║
 echo.                                             %b%║%p%░░░░██║░░██║██║░░██║░░░██║░░░░░░░░░░░░░╚██████╔╝░░░██║░░░██║███████╗██║░░░██║░░░░░░██║░░░░░░░░░░░░╚█████╔╝██╗███████╗██╗███████╗░░░░%b%%b%║
 echo.                                             %b%║%p%░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░░░░░░░░░░░╚═════╝░░░░╚═╝░░░╚═╝╚══════╝╚═╝░░░╚═╝░░░░░░╚═╝░░░░░░░░░░░░░╚════╝░╚═╝╚══════╝╚═╝╚══════╝░░░░%b%%b%║
 echo.                                             %b%╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
@@ -413,7 +413,7 @@ echo.                                             %b%║         %p%[%w%7%p%]%w%
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║         %p%[%w%10%p%]%w% Ajustes de Energia           %p%[%w%11%p%]%w% Debloat do Sistema                %p%[%w%12%p%]%w% Ajustes de Disco                    %b%         %b%║
 echo.                                             %b%║                                                                                                                                    ║
-echo.                                             %b%║         %p%[%w%13%p%]%w% Corrigir Arquivos            %p%[%w%14%p%]%w% Relatorio / Checagens                                                      %b%         %b%║
+echo.                                             %b%║         %p%[%w%13%p%]%w% Corrigir Arquivos            %p%[%w%14%p%]%w% Ajustes de Rede                   %p%[%w%15%p%]%w% Relatorio / Checagens               %b%         %b%║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
 echo.                                             %b%║                                                                                                                                    ║
@@ -422,7 +422,7 @@ echo.                                             %b%║                        
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║                                                                                                                                    ║
-echo.                                             %b%║                   %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.1 * Atualizado em 21 de Novembro de 2026%b%                   %b%║
+echo.                                             %b%║                   %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.2 * Atualizado em 22 de Novembro de 2026%b%                   %b%║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
@@ -442,7 +442,8 @@ if /i %input% == 10 goto 10war
 if /i %input% == 11 goto 11war
 if /i %input% == 12 goto 12
 if /i %input% == 13 goto 13
-if /i %input% == 14 goto 14
+if /i %input% == 14 goto 15
+if /i %input% == 15 goto 14
 
 if /i %input% == R goto revert
 if /i %input% == P goto backupmenu
@@ -463,13 +464,90 @@ goto menu
 
 ::Subrotina chamada pela opcao 1 (Otimizacoes Gerais): jogos em janela e Overlay, antiga opcao 14
 :gfx_windowed
-echo %w% - Restaurando Overlay (MPO) ao padrao%b%
-Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "OverlayTestMode" /f >nul 2>&1
+::MPO agora e controlado em GPU > Ajustes de Jogos e Tela (nao e mais restaurado aqui)
 echo %w% - Respeitando a configuracao de tela cheia de cada jogo%b%
 Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_HonorUserFSEBehaviorMode" /t REG_DWORD /d "1" /f >nul 2>&1
 if %WINBUILD% LSS 22000 exit /b
 echo %w% - Ativando otimizacoes de jogos em janela e desativando VRR em janela, sem apagar as outras opcoes de graficos%b%
 powershell -NoProfile -ExecutionPolicy Bypass -Command "$k='HKCU:\SOFTWARE\Microsoft\DirectX\UserGpuPreferences'; if (-not (Test-Path $k)) { New-Item -Path $k -Force | Out-Null }; $v=(Get-ItemProperty -Path $k -ErrorAction SilentlyContinue).DirectXUserGlobalSettings; $h=[ordered]@{}; foreach ($p in ([string]$v -split ';')) { if ($p -match '^(.+?)=(.*)$') { $h[$Matches[1]]=$Matches[2] } }; $h['VRROptimizeEnable']='0'; $h['SwapEffectUpgradeEnable']='1'; $s=(($h.Keys | ForEach-Object { $_ + '=' + $h[$_] }) -join ';') + ';'; Set-ItemProperty -Path $k -Name DirectXUserGlobalSettings -Value $s -Type String" >nul 2>&1
+exit /b
+
+
+:15
+:network
+cls
+echo.
+echo.
+echo.
+echo.                                                             %p%███████╗░  ████████╗  ███████╗░  ████████╗
+echo.                                                             %p%██╔═══██╗  ██╔═════╝  ██╔═══██╗  ██╔═════╝
+echo.                                                             %p%███████╔╝  ██████╗░░  ██║░░░██║  ██████╗░░
+echo.                                                             %p%██╔═══██╗  ██╔═══╝░░  ██║░░░██║  ██╔═══╝░░
+echo.                                                             %p%██║░░░██║  ████████╗  ███████╔╝  ████████╗
+echo.                                                             %p%╚═╝░░░╚═╝  ╚═══════╝  ╚══════╝░  ╚═══════╝
+echo.                                             %b%════════════════════════════════════════════════════════════════════════════════%w%
+echo.
+echo.                                                         %p%[%w%1%p%]%w% Aplicar otimizacoes de rede (placa e TCP)
+echo.
+echo.                                                         %p%[%w%2%p%]%w% Testar e aplicar o DNS mais rapido
+echo.
+echo.                                                         %p%[%w%3%p%]%w% Aprimorar Wi-Fi (ajustes, canais vizinhos, teste de estabilidade)
+echo.
+echo.                                                         %p%[%w%R%p%]%w% Reverter ajustes de rede
+echo.
+echo.
+echo.                                                         %p%[%w%M%p%]%w% Voltar ao menu
+echo.
+echo.                                             %b%════════════════════════════════════════════════════════════════════════════════
+echo.                                                    %W%Desativa economia de energia da placa, Gigabit Lite, EEE e Nagle
+echo.                                                    %W%Coloca velocidade e duplex no maximo e ajusta RSS e TCP
+echo.                                                    %W%A placa reinicia e a conexao cai por alguns segundos
+echo.                                             %b%════════════════════════════════════════════════════════════════════════════════
+echo. 
+set "input="
+set /p input=:
+if /i "%input%"=="1" goto net_do1
+if /i "%input%"=="2" goto net_do2
+if /i "%input%"=="3" goto net_do3
+if /i "%input%"=="R" goto net_dor
+if /i "%input%"=="M" cls & goto menu
+goto network
+
+:net_do1
+cls
+call :artps net_apply
+call :art_done
+goto network
+
+:net_do2
+cls
+call :artps net_dns
+call :art_done
+goto network
+
+:net_do3
+cls
+call :artps wifi_apply
+call :art_done
+goto network
+
+:net_dor
+cls
+call :artps net_revert
+call :art_done
+goto network
+
+::Caixa padrao de conclusao para os menus novos
+:art_done
+echo.
+echo.
+echo.
+echo.                                                                                  %b%╔═══════════════════════════════════════════════════════════════╗
+echo.                                                                                  %b%║  %w% * Concluido * Pressione qualquer tecla para continuar...  %b%  %b%║
+echo.                                                                                  %b%╚═══════════════════════════════════════════════════════════════╝
+echo.
+pause > nul
+cls
 exit /b
 
 
@@ -492,6 +570,12 @@ echo.                                                         %p%[%w%2%p%]%w% At
 echo.
 echo.                                                         %p%[%w%3%p%]%w% Desativar Economia de Energia do SSD/NVMe (StorPort)
 echo.
+echo.                                                         %p%[%w%4%p%]%w% Verificar TRIM e modo do controlador (AHCI/NVMe)
+echo.
+echo.                                                         %p%[%w%5%p%]%w% Otimizar SSD: desativar indexacao e defrag agendado
+echo.
+echo.                                                         %p%[%w%6%p%]%w% Mover pasta Temp para a unidade mais rapida
+echo.
 echo.
 echo.                                                         %p%[%w%M%p%]%w% Voltar ao menu
 echo.
@@ -504,6 +588,9 @@ set /p input=:
 if /i %input% == 1 goto s1
 if /i %input% == 2 goto s2
 if /i %input% == 3 goto s3
+if /i %input% == 4 goto s4
+if /i %input% == 5 goto s5
+if /i %input% == 6 goto s6
 if /i %input% == M cls & goto menu
 
 ) ELSE (
@@ -518,6 +605,24 @@ goto RedirectMenu4
 
 :RedirectMenu4
 cls
+goto :12
+
+:s4
+cls
+call :artps disk_check
+call :art_done
+goto :12
+
+:s5
+cls
+call :artps disk_ssd
+call :art_done
+goto :12
+
+:s6
+cls
+call :artps disk_temp
+call :art_done
 goto :12
 
 :s3
@@ -538,7 +643,7 @@ echo.
 
 pause > nul
 cls
-goto menu
+goto :12
 
 :s1
 cls
@@ -1090,7 +1195,11 @@ echo.                                                       %p%[%w%3%p%]%w% Desa
 echo.
 echo.                                                       %p%[%w%5%p%]%w% Desinstalar Cortana                    %p%[%w%6%p%]%w% Desativar Autologgers
 echo.
-echo.                                                       %p%[%w%7%p%]%w% Desativar Programa de Experiencia
+echo.                                                       %p%[%w%7%p%]%w% Desativar Programa de Experiencia      %p%[%w%8%p%]%w% Otimizar Servicos (preset seguro)
+echo.
+echo.                                                       %p%[%w%9%p%]%w% Modo Jogo (pausar ou retomar servicos pesados)
+echo.
+echo.                                                       %p%[%w%10%p%]%w% Desativar Game DVR e Game Bar
 echo.
 echo.
 echo.
@@ -1116,6 +1225,9 @@ if /i %input% == 4 goto d6
 if /i %input% == 5 goto d7
 if /i %input% == 6 goto d9
 if /i %input% == 7 goto d10
+if /i %input% == 8 goto d11
+if /i %input% == 9 goto d12
+if /i %input% == 10 goto d13
 if /i %input% == M cls & goto menu
 if /i %input% == R cls & goto debloat_revert
 ) ELSE (
@@ -1148,6 +1260,35 @@ if /i %input% == Y goto :DA
 if /i %input% == S goto :DA
 if /i %input% == N cls & goto debloat
 cls & goto debloat
+
+:d11
+cls
+call :artps svc_apply
+call :art_done
+goto :11
+
+:d12
+cls
+echo.
+echo %w% Modo Jogo: pausa servicos pesados enquanto voce joga e retoma depois%b%
+echo.
+choice /c:PRM /n /m "   [P] Pausar   [R] Retomar   [M] Voltar  "
+if errorlevel 3 cls & goto :11
+if errorlevel 2 goto d12r
+call :artps gm_on
+call :art_done
+goto :11
+
+:d12r
+call :artps gm_off
+call :art_done
+goto :11
+
+:d13
+cls
+call :artps dvr_apply
+call :art_done
+goto :11
 
 :d2
 echo %w% - Desativando Telemetria pelo Agendador de Tarefas %b%
@@ -1273,6 +1414,8 @@ cls
 goto :debloat
 
 :DA
+call :artps svc_apply
+call :artps dvr_apply
 ::1
 
 echo %w% - Desativando Telemetria pelo Agendador de Tarefas %b%
@@ -2171,7 +2314,11 @@ echo.                                                        %p%[%w%3%p%]%w% Rea
 echo.
 echo.                                                        %p%[%w%5%p%]%w% Restaurar Pesquisa/Cortana            %p%[%w%6%p%]%w% Restaurar Autologgers
 echo.
-echo.                                                        %p%[%w%7%p%]%w% Reativar Programa de Experiencia
+echo.                                                        %p%[%w%7%p%]%w% Reativar Programa de Experiencia       %p%[%w%8%p%]%w% Reativar Servicos Otimizados
+echo.
+echo.                                                        %p%[%w%9%p%]%w% Retomar Servicos do Modo Jogo
+echo.
+echo.                                                        %p%[%w%10%p%]%w% Reativar Game DVR e Game Bar
 echo.
 echo.
 echo.                                                        %p%[%w%M%p%]%w% Voltar ao Debloat
@@ -2191,6 +2338,9 @@ if "!input!"=="4" call :rvd_print & goto rvd_done
 if "!input!"=="5" call :rvd_cortana & goto rvd_done
 if "!input!"=="6" call :rvd_autolog & goto rvd_done
 if "!input!"=="7" call :rvd_exp & goto rvd_done
+if "!input!"=="8" call :rvd_svc & goto rvd_done
+if "!input!"=="9" call :rvd_gm & goto rvd_done
+if "!input!"=="10" call :rvd_dvr & goto rvd_done
 if /i "!input!"=="M" cls & goto debloat
 echo Entrada invalida
 timeout /t 1 /nobreak >nul
@@ -2204,6 +2354,9 @@ call :rvd_print
 call :rvd_cortana
 call :rvd_autolog
 call :rvd_exp
+call :rvd_svc
+call :rvd_gm
+call :rvd_dvr
 
 :rvd_done
 echo.
@@ -2216,6 +2369,18 @@ echo.
 pause > nul
 cls
 goto debloat_revert
+
+:rvd_dvr
+call :artps dvr_revert
+exit /b
+
+:rvd_svc
+call :artps svc_revert
+exit /b
+
+:rvd_gm
+call :artps gm_off
+exit /b
 
 ::Reverte Telemetria (opcao 1): reativa todas as tarefas agendadas que o Debloat desativou
 :rvd_tasks
@@ -2416,6 +2581,16 @@ echo.                                               %p%[%w%15%p%]%w% Reverter to
 echo.
 echo.                                               %p%[%w%16%p%]%w% Reativar Gerenciamento de Energia Ocioso do StorPort
 echo.
+echo.                                               %p%[%w%17%p%]%w% Reverter Ajustes de Rede (placa, Nagle, DNS, TCP)
+echo.
+echo.                                               %p%[%w%18%p%]%w% Reverter Jogos e Tela (HAGS, MPO, tela cheia, perfis por jogo)
+echo.
+echo.                                               %p%[%w%19%p%]%w% Reverter Disco (indexacao, defrag agendado, pasta Temp)
+echo.
+echo.                                               %p%[%w%20%p%]%w% Reverter CPU extra (boost, EPP, afinidade de interrupcoes)
+echo.
+echo.                                               %p%[%w%21%p%]%w% Reverter GPU integrada Intel (plano grafico, efeitos visuais, memoria de video)
+echo.
 echo.
 echo.                                               %p%[%w%M%p%]%w% Voltar ao menu
 echo.
@@ -2442,6 +2617,11 @@ if /i %input% == 13 goto r14
 if /i %input% == 14 goto r15
 if /i %input% == 15 goto r16
 if /i %input% == 16 goto r_storport
+if /i %input% == 17 goto r_net
+if /i %input% == 18 goto r_game
+if /i %input% == 19 goto r_disk
+if /i %input% == 20 goto r_cpu
+if /i %input% == 21 goto r_igpu
 if /i %input% == M cls & goto menu
 
 ) ELSE (
@@ -2456,6 +2636,36 @@ goto RedirectMenu10
 
 :RedirectMenu10
 cls
+goto :e
+
+:r_net
+cls
+call :artps net_revert
+call :art_done
+goto :e
+
+:r_game
+cls
+call :artps game_revert
+call :art_done
+goto :e
+
+:r_disk
+cls
+call :artps disk_revert
+call :art_done
+goto :e
+
+:r_igpu
+cls
+call :artps igpu_revert
+call :art_done
+goto :e
+
+:r_cpu
+cls
+call :artps cpu_revert
+call :art_done
 goto :e
 
 :r_storport
@@ -2782,10 +2992,11 @@ cls
 echo.
 echo.
 chcp 437 >nul 2>&1
-powershell "&  {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('! Reinicie o PC depois de usar, para que os ajustes sejam aplicados corretamente !, obrigado por usar o ART Utility. Clique em OK para sair', 'ART Tweaking Utility', 'Ok', [System.Windows.Forms.MessageBoxIcon]::Information);}"
-timeout /t 1 /nobreak > nul
+rem Mensagem sem ponto de exclamacao: com Delayed Expansion o cmd engole o texto entre dois "!"
+powershell -NoProfile -Command "Add-Type -AssemblyName System.Windows.Forms; $msg = 'Obrigado por usar o ART Utility, %USERNAME%.' + [char]10 + [char]10 + 'Para que todos os ajustes sejam aplicados corretamente, reinicie o PC.' + [char]10 + [char]10 + 'Deseja reiniciar agora?'; $r = [System.Windows.Forms.MessageBox]::Show($msg, 'ART Tweaking Utility', 'YesNo', [System.Windows.Forms.MessageBoxIcon]::Information); if ($r -eq 'Yes') { exit 1 } else { exit 0 }"
+set "ART_REBOOT=%errorlevel%"
 chcp 65001 >nul 2>&1
-pause > nul
+if "%ART_REBOOT%"=="1" shutdown /r /t 5 /c "ART Utility: reiniciando para aplicar os ajustes"
 cls
 exit
 
@@ -2833,6 +3044,9 @@ echo %w%- Desativando Throttle States%b%
 powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
 powercfg /setactive SCHEME_CURRENT
 
+echo %w%- Ajustes extras: boost agressivo, CPU hibrida e afinidade de interrupcoes%b%
+call :artps cpu_extra
+
 echo.
 echo.
 echo.
@@ -2864,12 +3078,18 @@ echo.                                                          %p%[%w%2%p%]%w% A
 echo.
 echo.                                                          %p%[%w%3%p%]%w% Aplicar Otimizacoes para GPU Intel
 echo.
+echo.                                                          %p%[%w%4%p%]%w% Ajustes de Jogos e Tela (HAGS, MPO, tela cheia)
+echo.
+echo.                                                          %p%[%w%5%p%]%w% Perfil por jogo (prioridade de CPU e GPU de um jogo)
+echo.
+echo.                                                          %p%[%w%6%p%]%w% GPU integrada Intel (plano grafico, efeitos visuais, memoria de video)
+echo.
 echo.
 echo.
 echo.                                                          %p%[%w%M%p%]%w% Voltar ao menu
 echo.
 echo.                                             %b%══════════════════════════════════════════════════════════════════
-echo.                                                           %w%Selecione o tipo de GPU que voce tem:
+echo.                                                           %w%Opcoes 1 a 3: tipo de GPU    4 a 6: jogos e GPU integrada
 echo.
 echo.                                                         %W%Otimiza sua GPU ajustando configuracoes 3D
 echo.                                                        %W%Desativando economia de energia e muito mais
@@ -2879,6 +3099,9 @@ set /p input=:
 if /i %input% == 1 goto g1
 if /i %input% == 2 goto g2
 if /i %input% == 3 goto g3
+if /i %input% == 4 goto gm_apply
+if /i %input% == 5 goto gm_prof
+if /i %input% == 6 goto gm_igpu
 if /i %input% == M cls & goto menu
 
 ) ELSE (
@@ -2895,6 +3118,24 @@ goto RedirectMenu12
 cls
 goto :7
 
+
+:gm_apply
+cls
+call :artps game_apply
+call :art_done
+goto :7
+
+:gm_igpu
+cls
+call :artps igpu_apply
+call :art_done
+goto :7
+
+:gm_prof
+cls
+call :artps game_profile
+call :art_done
+goto :7
 
 :g3
 cls
@@ -2914,7 +3155,7 @@ for /f "usebackq delims=" %%k in (`powershell -NoProfile -Command "Get-ChildItem
 if not defined GPUFOUND echo %w% - Nenhuma GPU Intel encontrada. Ajustes do driver Intel ignorados.%b%
 
 
-if defined GPUFOUND Reg.exe add "HKLM\Software\Intel\GMM" /v "DedicatedSegmentSize" /t REG_DWORD /d "512" /f
+if defined GPUFOUND call :artps igpu_vram
 echo.
 echo.
 echo.
@@ -3049,43 +3290,7 @@ echo %w% - Configurando CSRSS IO and CPU Priority to Realtime%b%
 Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\csrss.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "4" /f 
 Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\csrss.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "3" /f 
 
-::LatencyTolerance
-echo %w% - Configurando Latency Tolerance%b%
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\DXGKrnl" /v "MonitorLatencyTolerance" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\DXGKrnl" /v "MonitorRefreshLatencyTolerance" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "ExitLatency" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "ExitLatencyCheckEnabled" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "Latency" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceDefault" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceFSVP" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyTolerancePerfOverride" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceScreenOffIR" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceVSyncEnabled" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "RtlCapabilityCheckLatency" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultD3TransitionLatencyActivelyUsed" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultD3TransitionLatencyIdleLongTime" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultD3TransitionLatencyIdleMonitorOff" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultD3TransitionLatencyIdleNoContext" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultD3TransitionLatencyIdleShortTime" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultD3TransitionLatencyIdleVeryLongTime" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceIdle0" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceIdle0MonitorOff" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceIdle1" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceIdle1MonitorOff" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceMemory" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceNoContext" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceNoContextMonitorOff" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceOther" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultLatencyToleranceTimerPeriod" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultMemoryRefreshLatencyToleranceActivelyUsed" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultMemoryRefreshLatencyToleranceMonitorOff" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "DefaultMemoryRefreshLatencyToleranceNoContext" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "Latency" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "MaxIAverageGraphicsLatencyInOneBucket" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "MiracastPerfTrackGraphicsLatency" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "MonitorLatencyTolerance" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "MonitorRefreshLatencyTolerance" /t REG_DWORD /d "1" /f 
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "TransitionLatency" /t REG_DWORD /d "1" /f 
+::Chaves LatencyTolerance removidas: nao trazem ganho comprovado
 
 ::SetSystemResponsivness
 echo %w% - Configurando System Responsiveness%b%
@@ -3635,10 +3840,6 @@ Reg.exe add "%~1" /v "RMDeepL1EntryLatencyUsec" /t REG_DWORD /d "1" /f
 Reg.exe add "%~1" /v "RmGspcMaxFtuS" /t REG_DWORD /d "1" /f 
 Reg.exe add "%~1" /v "RmGspcMinFtuS" /t REG_DWORD /d "1" /f 
 Reg.exe add "%~1" /v "RmGspcPerioduS" /t REG_DWORD /d "1" /f 
-Reg.exe add "%~1" /v "RMLpwrEiIdleThresholdUs" /t REG_DWORD /d "1" /f 
-Reg.exe add "%~1" /v "RMLpwrGrIdleThresholdUs" /t REG_DWORD /d "1" /f 
-Reg.exe add "%~1" /v "RMLpwrGrRgIdleThresholdUs" /t REG_DWORD /d "1" /f 
-Reg.exe add "%~1" /v "RMLpwrMsIdleThresholdUs" /t REG_DWORD /d "1" /f 
 Reg.exe add "%~1" /v "VRDirectFlipDPCDelayUs" /t REG_DWORD /d "1" /f 
 Reg.exe add "%~1" /v "VRDirectFlipTimingMarginUs" /t REG_DWORD /d "1" /f 
 Reg.exe add "%~1" /v "VRDirectJITFlipMsHybridFlipDelayUs" /t REG_DWORD /d "1" /f 
@@ -3712,16 +3913,7 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\GpuEnergyDrv" /v "Start" /t 
 echo %w% - Desativando AMD Logging%b%
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\amdlog" /v "Start" /t REG_DWORD /d "4" /f 
 
-echo %w%- Latency Tolerance%b%
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "ExitLatency" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "ExitLatencyCheckEnabled" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "Latency" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceDefault" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceFSVP" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyTolerancePerfOverride" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceScreenOffIR" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "LatencyToleranceVSyncEnabled" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "RtlCapabilityCheckLatency" /t REG_DWORD /d "1" /f
+echo %w%- Ajustes de energia e interrupcoes (AMD)%b%
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "QosManagesIdleProcessors" /t REG_DWORD /d "0" /f
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DisableVsyncLatencyUpdate" /t REG_DWORD /d "0" /f
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DisableSensorWatchdog" /t REG_DWORD /d "1" /f
@@ -3734,33 +3926,6 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MinimumThrottlePer
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MaximumThrottlePercent" /t REG_DWORD /d "0" /f
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MaximumPerformancePercent" /t REG_DWORD /d "100" /f
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "InitialUnparkCount" /t REG_DWORD /d "100" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultD3TransitionLatencyActivelyUsed" /t REG_DWORD /d "0" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultD3TransitionLatencyIdleLongTime" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultD3TransitionLatencyIdleMonitorOff" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultD3TransitionLatencyIdleNoContext" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultD3TransitionLatencyIdleShortTime" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultD3TransitionLatencyIdleVeryLongTime" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceIdle0" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceIdle0MonitorOff" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceIdle1" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceIdle1MonitorOff" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceMemory" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceNoContext" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceNoContextMonitorOff" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceOther" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultLatencyToleranceTimerPeriod" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultMemoryRefreshLatencyToleranceActivelyUsed" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultMemoryRefreshLatencyToleranceMonitorOff" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "DefaultMemoryRefreshLatencyToleranceNoContext" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MiracastPerfTrackGraphicsLatency" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MonitorLatencyTolerance" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MonitorRefreshLatencyTolerance" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "TransitionLatency" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MaxIAverageGraphicsLatencyInOneBucket" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v "MonitorLatencyTolerance" /t REG_DWORD /d "0" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v "MonitorRefreshLatencyTolerance" /t REG_DWORD /d "0" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "MonitorLatencyTolerance" /t REG_DWORD /d "0" /f
-Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power" /v "MonitorRefreshLatencyTolerance" /t REG_DWORD /d "0" /f
 timeout /t 1 /nobreak > NUL
 
 
@@ -4913,6 +5078,10 @@ function Get-Snapshot {
     $freeMB = [math]::Round($os.FreePhysicalMemory / 1KB)
     $svc = @(Get-Service | Where-Object { $_.Status -eq 'Running' }).Count
     $startup = @(Get-StartupEntries | Where-Object { $_.Enabled }).Count
+    $dp = Get-DpcSample
+    $dpcV = $null
+    $intV = $null
+    if ($dp) { $dpcV = $dp.Dpc; $intV = $dp.Int }
     [pscustomobject]@{
         Date      = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
         RamUsedMB = ($totalMB - $freeMB)
@@ -4920,6 +5089,8 @@ function Get-Snapshot {
         Services  = $svc
         Startup   = $startup
         BootMs    = (Get-BootMs)
+        DpcPct    = $dpcV
+        IntPct    = $intV
         LastBoot  = $os.LastBootUpTime.ToString('yyyy-MM-dd HH:mm:ss')
     }
 }
@@ -4936,12 +5107,14 @@ function Show-Snapshot($s) {
     Write-Line 'Processos' $s.Processes
     Write-Line 'Servicos ativos' $s.Services
     Write-Line 'Apps no inicio' $s.Startup
+    if ($null -ne $s.DpcPct) { Write-Line 'Tempo em DPC' ('' + $s.DpcPct + ' %'); Write-Line 'Interrupcoes' ('' + $s.IntPct + ' %') } else { Write-Line 'Tempo em DPC' 'indisponivel' }
     if ($s.BootMs -gt 0) { Write-Line 'Ultimo boot' ('' + [math]::Round($s.BootMs / 1000, 1) + ' s') } else { Write-Line 'Ultimo boot' 'indisponivel no log de eventos' }
 }
 
 function Save-Before {
     Write-Title 'MEDIDOR ANTES/DEPOIS: salvando ANTES'
     Write-Host '   Dica: meca logo apos reiniciar, sem apps abertos, para os numeros serem comparaveis.' -ForegroundColor Gray
+    Write-Host '   A medicao de DPC leva uns 5 segundos, deixe o PC parado enquanto ela roda.' -ForegroundColor Gray
     Write-Host ''
     $s = Get-Snapshot
     $f = Join-Path (Get-SnapPath) 'before.json'
@@ -4976,9 +5149,10 @@ function Save-After {
         @('Apps no inicio', $b.Startup, $a.Startup)
     )
     $bootOk = (($b.BootMs -gt 0) -and ($a.BootMs -gt 0))
+    if (($null -ne $b.DpcPct) -and ($null -ne $a.DpcPct)) { $rows += ,@('Tempo em DPC (%)', $b.DpcPct, $a.DpcPct); $rows += ,@('Interrupcoes (%)', $b.IntPct, $a.IntPct) }
     if ($bootOk) { $rows += ,@('Tempo de boot (s)', [math]::Round($b.BootMs / 1000, 1), [math]::Round($a.BootMs / 1000, 1)) }
     foreach ($r in $rows) {
-        $d = [math]::Round($r[2] - $r[1], 1)
+        $d = [math]::Round($r[2] - $r[1], 2)
         if ($d -le 0) { $c = 'Green' } else { $c = 'Yellow' }
         Write-Host ('   {0,-18} {1,10} {2,10} {3,12}' -f $r[0], $r[1], $r[2], $d) -ForegroundColor $c
     }
@@ -5115,6 +5289,1118 @@ function Show-UsedPc {
 }
 
 
+# ===================== ART NEW TWEAKS: REDE, JOGOS, SERVICOS, DISCO, CPU =====================
+$global:ArtStateFile = Join-Path (Join-Path $env:USERPROFILE 'ART_Backups') 'ART_Tweaks_State.json'
+
+function Get-ArtState {
+    if (Test-Path -LiteralPath $global:ArtStateFile) {
+        try {
+            $o = Get-Content -LiteralPath $global:ArtStateFile -Raw | ConvertFrom-Json
+            if ($o) { return @($o) }
+        } catch { }
+    }
+    return @()
+}
+
+function Save-ArtState($list) {
+    $dir = Split-Path -Parent $global:ArtStateFile
+    New-Item -ItemType Directory -Path $dir -Force | Out-Null
+    $json = ConvertTo-Json -InputObject @($list) -Depth 6
+    Set-Content -LiteralPath $global:ArtStateFile -Value $json -Encoding UTF8
+}
+
+# Guarda o valor ORIGINAL uma unica vez (aplicar de novo nao apaga o original)
+function Add-ArtState($g, $t, $p, $n, $e, $v, $k) {
+    $s = New-Object System.Collections.ArrayList
+    foreach ($x in @(Get-ArtState)) { [void]$s.Add($x) }
+    foreach ($x in $s) {
+        if (($x.G -eq $g) -and ($x.T -eq $t) -and ($x.P -eq $p) -and ($x.N -eq $n)) { return }
+    }
+    [void]$s.Add([pscustomobject]@{ G = $g; T = $t; P = $p; N = $n; E = $e; V = $v; K = $k })
+    Save-ArtState $s
+}
+
+function Set-RegVal($g, $path, $name, $value, $kind) {
+    $existed = $false
+    $old = $null
+    $oldKind = ''
+    if (Test-Path -LiteralPath $path) {
+        $item = Get-Item -LiteralPath $path
+        if ($item.GetValueNames() -contains $name) {
+            $existed = $true
+            $old = $item.GetValue($name, $null, [Microsoft.Win32.RegistryValueOptions]::DoNotExpandEnvironmentNames)
+            $oldKind = $item.GetValueKind($name).ToString()
+        }
+    }
+    Add-ArtState $g 'reg' $path $name $existed $old $oldKind
+    if (-not (Test-Path -LiteralPath $path)) { New-Item -Path $path -Force | Out-Null }
+    Set-ItemProperty -LiteralPath $path -Name $name -Value $value -Type $kind -Force
+}
+
+function Remove-EmptyKey($path) {
+    if (Test-Path -LiteralPath $path) {
+        $it = Get-Item -LiteralPath $path
+        if (($it.ValueCount -eq 0) -and ($it.SubKeyCount -eq 0)) { Remove-Item -LiteralPath $path -Force }
+    }
+}
+
+function Restore-ArtState($groups) {
+    $all = @(Get-ArtState)
+    $keep = @()
+    $n = 0
+    foreach ($x in $all) {
+        if ($groups -notcontains $x.G) { $keep += $x; continue }
+        switch ($x.T) {
+            'reg' {
+                if ($x.E) {
+                    $v = $x.V
+                    if ($x.K -eq 'Binary') { $v = [byte[]]@($v) }
+                    elseif ($x.K -eq 'DWord') { $v = [int]$v }
+                    if (-not (Test-Path -LiteralPath $x.P)) { New-Item -Path $x.P -Force | Out-Null }
+                    Set-ItemProperty -LiteralPath $x.P -Name $x.N -Value $v -Type $x.K -Force
+                    if (($x.P -match '\\Services\\[^\\]+$') -and ($x.N -eq 'Start') -and ([int]$x.V -eq 2)) {
+                        Start-Service -Name (Split-Path -Leaf $x.P)
+                    }
+                } else {
+                    Remove-ItemProperty -LiteralPath $x.P -Name $x.N -Force
+                    if ($x.P -match 'Image File Execution Options') {
+                        Remove-EmptyKey $x.P
+                        Remove-EmptyKey (Split-Path -Parent $x.P)
+                    }
+                }
+                $n++
+            }
+            'adv' {
+                Set-NetAdapterAdvancedProperty -Name $x.P -RegistryKeyword $x.N -RegistryValue ([string]$x.V) -NoRestart
+                $n++
+            }
+            'rss' {
+                if ($x.V -eq 'False') { Disable-NetAdapterRss -Name $x.P }
+                $n++
+            }
+            'dns' {
+                $idx = (Get-NetAdapter -Name $x.P).ifIndex
+                if ($idx) {
+                    if ([string]::IsNullOrEmpty([string]$x.V)) { Set-DnsClientServerAddress -InterfaceIndex $idx -ResetServerAddresses }
+                    else { Set-DnsClientServerAddress -InterfaceIndex $idx -ServerAddresses (([string]$x.V) -split ',') }
+                }
+                $n++
+            }
+            'idx' {
+                $vol = Get-CimInstance Win32_Volume -Filter ("DriveLetter='" + $x.P + ":'")
+                if ($vol) { Set-CimInstance -InputObject $vol -Property @{ IndexingEnabled = $true } }
+                $n++
+            }
+            'task' {
+                Enable-ScheduledTask -TaskPath $x.P -TaskName $x.N | Out-Null
+                $n++
+            }
+            'pcfg' {
+                $parts = ([string]$x.N) -split '\|'
+                $vals = ([string]$x.V) -split ','
+                & powercfg /setacvalueindex $x.P $parts[0] $parts[1] ([int]$vals[0]) | Out-Null
+                & powercfg /setdcvalueindex $x.P $parts[0] $parts[1] ([int]$vals[1]) | Out-Null
+                & powercfg /setactive $x.P | Out-Null
+                $n++
+            }
+        }
+    }
+    Save-ArtState $keep
+    return $n
+}
+
+# ---------- REDE ----------
+$global:NetOffKw = @('GigaLite', 'EEE', '*EEE', 'EEELinkAdvertisement', 'AdvancedEEE', 'EnableGreenEthernet', 'GreenEthernet', 'PowerSavingMode', 'PowerSaving', 'ULPMode', 'ReduceSpeedOnPowerDown', 'EnablePME', 'AutoPowerSaveModeEnabled', 'EnableSavePowerNow', 'EnableDynamicPowerGating', 'S5WakeOnLan', '*WakeOnMagicPacket', '*WakeOnPattern', 'WakeOnLink', '*SelectiveSuspend')
+$global:NetOffName = 'Gigabit Lite|Giga Lite|Green Ethernet|Ethernet Verde|Energy.Efficient|Energia Eficiente|Efici.ncia.*Energ|Power Saving|Economia de energia|Wake on|Wake-on|Pacote Wake|Ativar na LAN'
+
+function Wait-LinkUp($name, $minBps, $seconds) {
+    $end = (Get-Date).AddSeconds($seconds)
+    while ((Get-Date) -lt $end) {
+        Start-Sleep -Milliseconds 1000
+        $a = Get-NetAdapter -Name $name
+        if ($a -and ($a.Status -eq 'Up') -and ([double]$a.Speed -ge $minBps)) { return $a }
+    }
+    return $null
+}
+
+function Set-BestLink($a) {
+    $p = Get-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword '*SpeedDuplex' -AllProperties
+    if (-not $p) { return 'sem opcao de velocidade e duplex neste adaptador (mantido como esta)' }
+    if ($a.Status -ne 'Up') { return 'cabo desconectado, velocidade nao alterada' }
+    $dv = @($p.ValidDisplayValues)
+    $rv = @($p.ValidRegistryValues)
+    $cands = @()
+    for ($i = 0; $i -lt $dv.Count; $i++) {
+        $d = [string]$dv[$i]
+        if (($d -match '(\d+(?:[.,]\d+)?)\s*Gbps') -and ($d -notmatch 'Half|Meio|Master|Slave|Mestre|Escravo')) {
+            $sp = [double](($Matches[1]) -replace ',', '.')
+            $cands += [pscustomobject]@{ Speed = $sp; Reg = [string]$rv[$i]; Name = $d }
+        }
+    }
+    if ($cands.Count -eq 0) { return 'este adaptador so tem Auto Negotiation ou ate 100 Mbps (mantido em Auto)' }
+    $orig = [string]$p.RegistryValue
+    Add-ArtState 'net' 'adv' $a.Name '*SpeedDuplex' $true $orig ''
+    foreach ($c in ($cands | Sort-Object Speed -Descending)) {
+        Set-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword '*SpeedDuplex' -RegistryValue $c.Reg -NoRestart
+        Restart-NetAdapter -Name $a.Name
+        $up = Wait-LinkUp $a.Name ($c.Speed * 1000000000 * 0.9) 20
+        if ($up) { return ('fixado em ' + $c.Name + ' (link ativo a ' + $up.LinkSpeed + ')') }
+    }
+    Set-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword '*SpeedDuplex' -RegistryValue $orig -NoRestart
+    Restart-NetAdapter -Name $a.Name
+    Wait-LinkUp $a.Name 1 20 | Out-Null
+    return 'nenhuma velocidade fixa subiu o link (roteador/cabo nao suportam), voltei ao valor anterior'
+}
+
+function Invoke-NetApply {
+    Write-Title 'REDE: aplicando ajustes na placa e no TCP'
+    $ads = @(Get-NetAdapter -Physical)
+    if ($ads.Count -eq 0) { Write-Warn2 'Nenhum adaptador de rede fisico encontrado.'; return }
+    Write-Host '   A conexao pode cair alguns segundos enquanto a placa reinicia.' -ForegroundColor Gray
+    foreach ($a in $ads) {
+        Write-Host ''
+        Write-Host ('   Adaptador: ' + $a.Name + ' (' + $a.InterfaceDescription + ')') -ForegroundColor Cyan
+        $props = @(Get-NetAdapterAdvancedProperty -Name $a.Name -AllProperties)
+        $off = 0
+        foreach ($p in $props) {
+            $kw = [string]$p.RegistryKeyword
+            $dn = [string]$p.DisplayName
+            if (($global:NetOffKw -contains $kw) -or ($dn -match $global:NetOffName)) {
+                $dvals = @($p.ValidDisplayValues)
+                $rvals = @($p.ValidRegistryValues)
+                $target = $null
+                for ($j = 0; $j -lt $dvals.Count; $j++) {
+                    if (([string]$dvals[$j] -match '^(Disabled|Disable|Desativad|Desligad|Off)') -and ($j -lt $rvals.Count)) { $target = [string]$rvals[$j] }
+                }
+                if (($null -eq $target) -and ($rvals -contains '0')) { $target = '0' }
+                if ($null -eq $target) {
+                    Write-Warn2 ('Nao consegui desativar (valor "desligado" desconhecido): ' + $dn)
+                } elseif ([string]$p.RegistryValue -ne $target) {
+                    Add-ArtState 'net' 'adv' $a.Name $kw $true ([string]$p.RegistryValue) ''
+                    Set-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword $kw -RegistryValue $target -NoRestart
+                    Write-Ok ('Desativado: ' + $dn)
+                    $off++
+                } else {
+                    Write-Host ('   Ja estava desativado: ' + $dn) -ForegroundColor Gray
+                }
+            }
+        }
+        if ($off -eq 0) { Write-Host '   Economia de energia da placa: nada para desativar (ja desativada ou o driver nao tem essas opcoes).' -ForegroundColor Gray }
+
+        # RSS e filas
+        $rssP = $props | Where-Object { $_.RegistryKeyword -eq '*RSS' } | Select-Object -First 1
+        if ($rssP -and ([string]$rssP.RegistryValue -ne '1') -and (@($rssP.ValidRegistryValues) -contains '1')) {
+            Add-ArtState 'net' 'adv' $a.Name '*RSS' $true ([string]$rssP.RegistryValue) ''
+            Set-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword '*RSS' -RegistryValue '1' -NoRestart
+            Write-Ok 'RSS (Receive Side Scaling) ativado'
+            $off++
+        }
+        $qP = $props | Where-Object { $_.RegistryKeyword -eq '*NumRssQueues' } | Select-Object -First 1
+        if ($qP) {
+            $valid = @(@($qP.ValidRegistryValues) | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Where-Object { $_ -le 4 } | Sort-Object -Descending)
+            if (($valid.Count -gt 0) -and ([string]$qP.RegistryValue -ne [string]$valid[0])) {
+                Add-ArtState 'net' 'adv' $a.Name '*NumRssQueues' $true ([string]$qP.RegistryValue) ''
+                Set-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword '*NumRssQueues' -RegistryValue ([string]$valid[0]) -NoRestart
+                Write-Ok ('Filas RSS: ' + $valid[0])
+                $off++
+            }
+        }
+        $rss = Get-NetAdapterRss -Name $a.Name
+        if ($rss -and (-not $rss.Enabled)) {
+            Add-ArtState 'net' 'rss' $a.Name 'Enabled' $true 'False' ''
+            Enable-NetAdapterRss -Name $a.Name
+            Write-Ok 'RSS habilitado no adaptador'
+        }
+
+        # Gerenciamento de energia do Windows: nao desligar a placa para economizar energia
+        $cls = 'HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}'
+        foreach ($k in @(Get-ChildItem -LiteralPath $cls | Where-Object { $_.PSChildName -match '^\d{4}$' })) {
+            if ($k.GetValue('NetCfgInstanceId') -eq $a.InterfaceGuid) {
+                Set-RegVal 'net' $k.PSPath 'PnPCapabilities' 24 'DWord'
+                Write-Ok 'Windows nao pode mais desligar a placa para economizar energia'
+            }
+        }
+
+        # Nagle
+        $ifk = 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\' + $a.InterfaceGuid
+        if (Test-Path -LiteralPath $ifk) {
+            Set-RegVal 'net' $ifk 'TcpAckFrequency' 1 'DWord'
+            Set-RegVal 'net' $ifk 'TCPNoDelay' 1 'DWord'
+            Set-RegVal 'net' $ifk 'TcpDelAckTicks' 0 'DWord'
+            Write-Ok 'Algoritmo de Nagle desativado (TcpAckFrequency, TCPNoDelay)'
+        }
+
+        # Velocidade e duplex no maximo (testa o link e volta se nao subir)
+        $res = Set-BestLink $a
+        Write-Host ('   Velocidade e duplex: ' + $res) -ForegroundColor White
+        if (($off -gt 0) -and ($res -like 'sem opcao*' -or $res -like 'cabo*' -or $res -like 'este adaptador*')) {
+            if ($a.Status -eq 'Up') { Restart-NetAdapter -Name $a.Name }
+        }
+    }
+    Write-Host ''
+    & netsh int tcp set global autotuninglevel=normal | Out-Null
+    & netsh int tcp set global ecncapability=enabled | Out-Null
+    & netsh int tcp set global rss=enabled | Out-Null
+    & netsh int tcp set global rsc=disabled | Out-Null
+    Write-Ok 'TCP global: autotuning normal, ECN ativado, RSS ativado, RSC desativado'
+    & ipconfig /flushdns | Out-Null
+    Write-Ok 'Cache de DNS limpo'
+    Write-Host ''
+    Write-Host '   Para escolher o DNS mais rapido use a opcao 2 deste menu. Reinicie o PC para finalizar.' -ForegroundColor Yellow
+}
+
+function Invoke-DnsTest {
+    Write-Title 'REDE: teste de DNS (menor tempo de resposta)'
+    $ads = @(Get-NetAdapter -Physical | Where-Object { $_.Status -eq 'Up' })
+    if ($ads.Count -eq 0) { Write-Warn2 'Nenhum adaptador conectado.'; return }
+    $cur = @()
+    foreach ($a in $ads) { $cur += @((Get-DnsClientServerAddress -InterfaceIndex $a.ifIndex -AddressFamily IPv4).ServerAddresses) }
+    $curIp = $cur | Where-Object { $_ } | Select-Object -First 1
+    $list = @(
+        [pscustomobject]@{ Name = 'Cloudflare'; Ips = @('1.1.1.1', '1.0.0.1') },
+        [pscustomobject]@{ Name = 'Google'; Ips = @('8.8.8.8', '8.8.4.4') },
+        [pscustomobject]@{ Name = 'Quad9'; Ips = @('9.9.9.9', '149.112.112.112') }
+    )
+    if ($curIp -and ($curIp -notin @('1.1.1.1', '8.8.8.8', '9.9.9.9'))) {
+        $list = @([pscustomobject]@{ Name = 'Atual'; Ips = @($curIp) }) + $list
+    }
+    $sites = @('google.com', 'youtube.com', 'facebook.com', 'amazon.com', 'wikipedia.org', 'microsoft.com', 'steampowered.com', 'netflix.com')
+    Write-Host '   Medindo, isso leva uns segundos...' -ForegroundColor Gray
+    $rows = @()
+    foreach ($s in $list) {
+        $times = @()
+        $fail = 0
+        foreach ($round in 1, 2) {
+            foreach ($site in $sites) {
+                $sw = [Diagnostics.Stopwatch]::StartNew()
+                $r = Resolve-DnsName -Name $site -Server $s.Ips[0] -Type A -DnsOnly -QuickTimeout
+                $sw.Stop()
+                if ($round -eq 2) {
+                    if ($r) { $times += $sw.Elapsed.TotalMilliseconds } else { $fail++ }
+                }
+            }
+        }
+        $avg = 9999
+        if ($times.Count -gt 0) { $avg = [math]::Round(($times | Measure-Object -Average).Average, 1) }
+        $rows += [pscustomobject]@{ Name = $s.Name; Ips = $s.Ips; Avg = $avg; Fail = $fail }
+    }
+    Write-Host ''
+    foreach ($r in ($rows | Sort-Object Avg)) {
+        $c = 'White'
+        if ($r.Fail -gt 0) { $c = 'Yellow' }
+        Write-Host ('   {0,-12} {1,-18} {2,8} ms   falhas: {3}' -f $r.Name, ($r.Ips -join ' / '), $r.Avg, $r.Fail) -ForegroundColor $c
+    }
+    $best = $rows | Where-Object { $_.Fail -eq 0 } | Sort-Object Avg | Select-Object -First 1
+    Write-Host ''
+    if (-not $best) { Write-Warn2 'Nenhum servidor respondeu sem falhas, DNS nao alterado.'; return }
+    if ($best.Name -eq 'Atual') { Write-Ok 'Seu DNS atual ja e o mais rapido, nada a fazer.'; return }
+    $ans = (Read-Host ('   Aplicar ' + $best.Name + ' (' + ($best.Ips -join ', ') + ') nos adaptadores conectados? Digite S para confirmar')).Trim()
+    if ($ans -notmatch '^[SsYy]$') { Write-Host '   DNS nao alterado.' -ForegroundColor Yellow; return }
+    foreach ($a in $ads) {
+        $ifk = 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\' + $a.InterfaceGuid
+        $ns = ''
+        if (Test-Path -LiteralPath $ifk) { $ns = [string](Get-ItemProperty -LiteralPath $ifk).NameServer }
+        Add-ArtState 'net' 'dns' $a.Name 'DNS' $true $ns ''
+        Set-DnsClientServerAddress -InterfaceIndex $a.ifIndex -ServerAddresses $best.Ips
+        Write-Ok ('DNS aplicado em ' + $a.Name)
+    }
+    & ipconfig /flushdns | Out-Null
+}
+
+function Invoke-NetRevert {
+    Write-Title 'REDE: revertendo ajustes'
+    $n = @(Restore-ArtState @('net', 'wifi'))[-1]
+    & netsh int tcp set global autotuninglevel=normal | Out-Null
+    & netsh int tcp set global ecncapability=disabled | Out-Null
+    & netsh int tcp set global rss=enabled | Out-Null
+    & netsh int tcp set global rsc=enabled | Out-Null
+    foreach ($a in @(Get-NetAdapter -Physical | Where-Object { $_.Status -eq 'Up' })) { Restart-NetAdapter -Name $a.Name }
+    & ipconfig /flushdns | Out-Null
+    Write-Ok ('Itens restaurados: ' + $n + ' (e TCP global voltou ao padrao do Windows)')
+}
+
+# ---------- WI-FI ----------
+function Set-PowerIdxBoth($scheme, $sub, $setting, $val, $group) {
+    $o = (& powercfg /q $scheme $sub $setting) | Out-String
+    $m = [regex]::Matches($o, '0x[0-9a-fA-F]{8}')
+    if ($m.Count -lt 2) { return $false }
+    $ac = [Convert]::ToInt32($m[$m.Count - 2].Value, 16)
+    $dc = [Convert]::ToInt32($m[$m.Count - 1].Value, 16)
+    Add-ArtState $group 'pcfg' $scheme ($sub + '|' + $setting) $true ([string]$ac + ',' + [string]$dc) ''
+    & powercfg /setacvalueindex $scheme $sub $setting $val | Out-Null
+    & powercfg /setdcvalueindex $scheme $sub $setting $val | Out-Null
+    & powercfg /setactive $scheme | Out-Null
+    return $true
+}
+
+function Find-OptionReg($p, $pattern) {
+    $dv = @($p.ValidDisplayValues)
+    $rv = @($p.ValidRegistryValues)
+    for ($i = 0; $i -lt $dv.Count; $i++) {
+        if (([string]$dv[$i] -match $pattern) -and ($i -lt $rv.Count)) { return [string]$rv[$i] }
+    }
+    return $null
+}
+
+function Set-AdvOption($a, $p, $target) {
+    if ([string]$p.RegistryValue -eq [string]$target) { return $false }
+    Add-ArtState 'wifi' 'adv' $a.Name ([string]$p.RegistryKeyword) $true ([string]$p.RegistryValue) ''
+    Set-NetAdapterAdvancedProperty -Name $a.Name -RegistryKeyword ([string]$p.RegistryKeyword) -RegistryValue ([string]$target) -NoRestart
+    return $true
+}
+
+$global:WifiRules = @(
+    @{ Name = 'MIMO|SMPS'; Opt = 'No SMPS|Disabled|Desativ|Off|Nenhum'; Label = 'Economia MIMO desativada' },
+    @{ Name = 'U-?APSD|Power Sav|Powersav|Economia de energia|Energy Sav'; Opt = 'Disabled|Desativ|Off|Max.*Perf|Maximum'; Label = 'Economia de energia do Wi-Fi desativada' },
+    @{ Name = 'Roam.*(Aggress|Agress|Sensitiv|Tend)|(Aggress|Agress).*Roam'; Opt = 'Lowest|Minimum|Minimo|Mais baixo|^Baixo|^Low$|^1\.'; Label = 'Roaming no minimo' },
+    @{ Name = '802\.11ax|Wi-?Fi ?6|802\.11be|Wi-?Fi ?7|HE ?Mode|EHT'; Opt = '^(Enabled|Ativad|Habilitad|On)'; Label = 'Modo Wi-Fi 6/7 ativado' }
+)
+
+function Show-WifiLink {
+    Write-Title 'WI-FI: status do link'
+    $txt = (& netsh wlan show interfaces) | Out-String
+    foreach ($ln in ($txt -split "`n")) {
+        $s = $ln.Trim()
+        if ($s -match '^(Name|Nome|Description|Descri|SSID|BSSID|Network type|Radio|Band|Banda|Channel|Canal|Receive rate|Transmit rate|Taxa|Signal|Sinal)') { Write-Host ('   ' + $s) -ForegroundColor White }
+    }
+    $ch = [regex]::Match($txt, '(?im)^\s*(Channel|Canal)\s*:\s*(\d+)')
+    if ($ch.Success -and ([int]$ch.Groups[2].Value -le 14)) {
+        Write-Host ''
+        Write-Warn2 'Voce esta na banda de 2.4 GHz. Se seu roteador tem 5 GHz, conecte nela (rede com final 5G) para menos interferencia.'
+    }
+    return $(if ($ch.Success) { [int]$ch.Groups[2].Value } else { 0 })
+}
+
+function Show-WifiChannels($myChan) {
+    Write-Title 'WI-FI: redes vizinhas por canal'
+    $txt = (& netsh wlan show networks mode=bssid) | Out-String
+    $blocks = [regex]::Split($txt, '(?im)^\s*BSSID\s+\d+')
+    $rows = @()
+    for ($i = 1; $i -lt $blocks.Count; $i++) {
+        $ch = [regex]::Match($blocks[$i], '(?im)^\s*(Channel|Canal)\s*:\s*(\d+)')
+        $sg = [regex]::Match($blocks[$i], '(?im)^\s*(Signal|Sinal)\s*:\s*(\d+)')
+        if ($ch.Success -and $sg.Success) { $rows += [pscustomobject]@{ Ch = [int]$ch.Groups[2].Value; Sig = [int]$sg.Groups[2].Value } }
+    }
+    if ($rows.Count -eq 0) { Write-Warn2 'Nao consegui listar as redes vizinhas (ative a Localizacao do Windows e tente de novo).'; return }
+    foreach ($g in ($rows | Group-Object Ch | Sort-Object { [int]$_.Name })) {
+        $best = ($g.Group | Measure-Object -Property Sig -Maximum).Maximum
+        $mark = ''
+        if ([int]$g.Name -eq $myChan) { $mark = '  <- seu canal' }
+        Write-Host ('   Canal {0,3}: {1,2} rede(s), mais forte {2,3}%{3}' -f $g.Name, $g.Count, $best, $mark) -ForegroundColor White
+    }
+    Write-Host ''
+    if (@($rows | Where-Object { $_.Ch -le 14 }).Count -gt 0) {
+        $c24 = foreach ($c in 1, 6, 11) { [pscustomobject]@{ Ch = $c; N = @($rows | Where-Object { [math]::Abs($_.Ch - $c) -le 4 }).Count } }
+        $b24 = $c24 | Sort-Object N | Select-Object -First 1
+        Write-Ok ('2.4 GHz: o canal menos congestionado e o ' + $b24.Ch + ' (troque no roteador se o seu for outro)')
+    }
+    if (@($rows | Where-Object { $_.Ch -gt 14 }).Count -gt 0) {
+        $c5 = foreach ($c in 36, 40, 44, 48, 149, 153, 157, 161) { [pscustomobject]@{ Ch = $c; N = @($rows | Where-Object { $_.Ch -eq $c }).Count } }
+        $b5 = $c5 | Sort-Object N | Select-Object -First 1
+        Write-Ok ('5 GHz: o canal menos congestionado e o ' + $b5.Ch)
+    }
+}
+
+function Test-WifiStability {
+    Write-Title 'WI-FI: teste de estabilidade (cerca de 15 segundos)'
+    $gw = (Get-NetIPConfiguration | Where-Object { $_.IPv4DefaultGateway } | Select-Object -First 1).IPv4DefaultGateway.NextHop
+    $targets = @()
+    if ($gw) { $targets += [pscustomobject]@{ Name = 'Roteador'; Ip = [string]$gw; T = @(); Lost = 0 } }
+    $targets += [pscustomobject]@{ Name = 'Internet'; Ip = '1.1.1.1'; T = @(); Lost = 0 }
+    $ping = New-Object System.Net.NetworkInformation.Ping
+    for ($i = 0; $i -lt 30; $i++) {
+        foreach ($t in $targets) {
+            $r = $null
+            try { $r = $ping.Send($t.Ip, 1000) } catch { }
+            if ($r -and ($r.Status -eq 'Success')) { $t.T += [double]$r.RoundtripTime } else { $t.Lost++ }
+        }
+        Start-Sleep -Milliseconds 500
+    }
+    foreach ($t in $targets) {
+        if ($t.T.Count -eq 0) { Write-Warn2 ($t.Name + ' (' + $t.Ip + '): sem resposta'); continue }
+        $avg = [math]::Round(($t.T | Measure-Object -Average).Average, 1)
+        $max = ($t.T | Measure-Object -Maximum).Maximum
+        $jit = 0
+        for ($k = 1; $k -lt $t.T.Count; $k++) { $jit += [math]::Abs($t.T[$k] - $t.T[$k - 1]) }
+        if ($t.T.Count -gt 1) { $jit = [math]::Round($jit / ($t.T.Count - 1), 1) }
+        $loss = [math]::Round(100 * $t.Lost / 30, 1)
+        $c = 'Green'
+        if (($loss -gt 0) -or ($max -gt 100) -or ($jit -gt 15)) { $c = 'Yellow' }
+        Write-Host ('   {0,-9} {1,-15} media {2} ms | pico {3} ms | jitter {4} ms | perda {5}%' -f $t.Name, $t.Ip, $avg, $max, $jit, $loss) -ForegroundColor $c
+    }
+    Write-Host '   Perda acima de 0 por cento ou picos acima de 100 ms indicam Wi-Fi instavel (distancia, interferencia ou canal ruim).' -ForegroundColor Gray
+}
+
+function Invoke-WifiApply {
+    Write-Title 'WI-FI: aprimorando a conexao sem fio'
+    $wifi = @(Get-NetAdapter -Physical | Where-Object { ([string]$_.PhysicalMediaType -match '802\.11') -or ([string]$_.InterfaceDescription -match 'Wi-?Fi|Wireless|WLAN|802\.11') })
+    if ($wifi.Count -eq 0) { Write-Warn2 'Nenhum adaptador Wi-Fi encontrado neste PC.'; return }
+    $scheme = [regex]::Match(((& powercfg /getactivescheme) | Out-String), '[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}').Value
+    foreach ($a in $wifi) {
+        Write-Host ''
+        Write-Host ('   Adaptador: ' + $a.Name + ' (' + $a.InterfaceDescription + ')') -ForegroundColor Cyan
+        $n = 0
+        foreach ($p in @(Get-NetAdapterAdvancedProperty -Name $a.Name -AllProperties)) {
+            $dn = [string]$p.DisplayName
+            if ($dn -match 'Wake|Preferred Band|Preferred band|Banda preferida') { continue }
+            $target = $null
+            $label = $null
+            $matched = $false
+            foreach ($r in $global:WifiRules) {
+                if ($dn -match $r.Name) { $matched = $true; $label = $r.Label; $target = Find-OptionReg $p $r.Opt; break }
+            }
+            if ((-not $matched) -and ($dn -match 'Wireless Mode|Modo sem fio|Modo Wireless')) {
+                $matched = $true
+                $label = 'Modo sem fio com 802.11ax'
+                $dv = @($p.ValidDisplayValues)
+                $rv = @($p.ValidRegistryValues)
+                $len = 0
+                for ($i = 0; $i -lt $dv.Count; $i++) {
+                    if (([string]$dv[$i] -match 'ax') -and (([string]$dv[$i]).Length -gt $len) -and ($i -lt $rv.Count)) { $target = [string]$rv[$i]; $len = ([string]$dv[$i]).Length }
+                }
+            }
+            if ((-not $matched) -and ($dn -match 'Channel Width|Largura.*canal') -and ($dn -match '(5|6)\s?GHz')) {
+                $matched = $true
+                $label = 'Largura de canal 5/6 GHz no maximo'
+                $target = Find-OptionReg $p '^Auto'
+                if ($null -eq $target) {
+                    $dv = @($p.ValidDisplayValues)
+                    $rv = @($p.ValidRegistryValues)
+                    $mx = 0
+                    for ($i = 0; $i -lt $dv.Count; $i++) {
+                        $mm = [regex]::Matches([string]$dv[$i], '(\d+)\s?MHz')
+                        if ($mm.Count -gt 0) {
+                            $v = [int]$mm[$mm.Count - 1].Groups[1].Value
+                            if (($v -gt $mx) -and ($i -lt $rv.Count)) { $mx = $v; $target = [string]$rv[$i] }
+                        }
+                    }
+                }
+            }
+            if ($matched) {
+                if ($null -eq $target) { Write-Host ('   Sem opcao compativel em: ' + $dn) -ForegroundColor Gray }
+                elseif (Set-AdvOption $a $p $target) { Write-Ok ($label + ' (' + $dn + ')'); $n++ }
+                else { Write-Host ('   Ja estava ajustado: ' + $dn) -ForegroundColor Gray }
+            }
+        }
+        $cls = 'HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}'
+        foreach ($k in @(Get-ChildItem -LiteralPath $cls | Where-Object { $_.PSChildName -match '^\d{4}$' })) {
+            if ($k.GetValue('NetCfgInstanceId') -eq $a.InterfaceGuid) {
+                Set-RegVal 'wifi' $k.PSPath 'PnPCapabilities' 24 'DWord'
+                Write-Ok 'Windows nao pode mais desligar o adaptador Wi-Fi para economizar energia'
+            }
+        }
+        if ($scheme -and (Set-PowerIdxBoth $scheme '19cbb8fa-5279-450e-9fac-8a3d5fedd0c1' '12bbebe6-58d6-4636-95bb-3217ef867c1a' 0 'wifi')) {
+            Write-Ok 'Plano de energia: adaptador sem fio em Desempenho Maximo'
+        }
+        if (($n -gt 0) -and ($a.Status -eq 'Up')) {
+            Write-Host '   Reiniciando o adaptador para aplicar...' -ForegroundColor Gray
+            Restart-NetAdapter -Name $a.Name
+            Wait-LinkUp $a.Name 1 25 | Out-Null
+        }
+    }
+    Start-Sleep -Seconds 3
+    $chan = Show-WifiLink
+    Show-WifiChannels $chan
+    Test-WifiStability
+    Write-Host ''
+    Write-Host '   A banda preferida nao foi alterada. Reverter: opcao R deste menu.' -ForegroundColor Yellow
+}
+
+# ---------- GPU INTEGRADA INTEL ----------
+$global:DiscreteGpuPattern = 'NVIDIA|GeForce|Quadro|\bRTX\b|\bGTX\b|Radeon\(TM\) RX|Radeon RX|Radeon Pro|Arc\(TM\) ?[AB]\d{3}|Arc ?[AB]\d{3}'
+
+function Test-DiscreteGpu {
+    foreach ($x in @(Get-CimInstance Win32_VideoController | Where-Object { [string]$_.PNPDeviceID -like 'PCI\*' })) {
+        if ([string]$x.Name -match $global:DiscreteGpuPattern) { return $true }
+    }
+    return $false
+}
+
+function Get-IntelIgpu {
+    return (Get-CimInstance Win32_VideoController | Where-Object { ([string]$_.PNPDeviceID -like 'PCI\VEN_8086*') -and ([string]$_.Name -notmatch 'Arc\(TM\) ?[AB]\d{3}|Arc ?[AB]\d{3}') } | Select-Object -First 1)
+}
+
+function Set-PowerIdxAc($scheme, $sub, $setting, $val, $group) {
+    $o = (& powercfg /q $scheme $sub $setting) | Out-String
+    $m = [regex]::Matches($o, '0x[0-9a-fA-F]{8}')
+    if ($m.Count -lt 2) { return $false }
+    $ac = [Convert]::ToInt32($m[$m.Count - 2].Value, 16)
+    $dc = [Convert]::ToInt32($m[$m.Count - 1].Value, 16)
+    Add-ArtState $group 'pcfg' $scheme ($sub + '|' + $setting) $true ([string]$ac + ',' + [string]$dc) ''
+    & powercfg /setacvalueindex $scheme $sub $setting $val | Out-Null
+    & powercfg /setactive $scheme | Out-Null
+    return $true
+}
+
+function Invoke-IgpuVram {
+    $gb = [math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory / 1GB)
+    $mb = 512
+    if ($gb -ge 28) { $mb = 2048 } elseif ($gb -ge 14) { $mb = 1024 }
+    Set-RegVal 'igpu' 'HKLM:\SOFTWARE\Intel\GMM' 'DedicatedSegmentSize' $mb 'DWord'
+    Write-Ok ('Memoria de video reportada: ' + $mb + ' MB (RAM do PC: ' + $gb + ' GB). Nao aloca nada, so muda o que o Windows informa aos jogos')
+}
+
+function Invoke-IgpuVisual {
+    $adv = 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+    Set-RegVal 'igpu' 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize' 'EnableTransparency' 0 'DWord'
+    Set-RegVal 'igpu' 'HKCU:\Control Panel\Desktop\WindowMetrics' 'MinAnimate' '0' 'String'
+    Set-RegVal 'igpu' $adv 'TaskbarAnimations' 0 'DWord'
+    Set-RegVal 'igpu' $adv 'ListviewShadow' 0 'DWord'
+    Set-RegVal 'igpu' $adv 'ListviewAlphaSelect' 0 'DWord'
+    Set-RegVal 'igpu' 'HKCU:\SOFTWARE\Microsoft\Windows\DWM' 'EnableAeroPeek' 0 'DWord'
+    Set-RegVal 'igpu' 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects' 'VisualFXSetting' 3 'DWord'
+    Write-Ok 'Efeitos visuais leves: sem transparencia, animacoes de janelas e da barra, sombras de lista e Aero Peek'
+    Write-Host '   Faca logoff ou reinicie o Explorer para ver tudo valendo.' -ForegroundColor Gray
+}
+
+function Show-IgpuDiag($ig) {
+    Write-Title 'GPU INTEGRADA: diagnostico'
+    Write-Line 'GPU' ([string]$ig.Name)
+    Write-Line 'Driver' ([string]$ig.DriverVersion)
+    if ($ig.DriverDate) {
+        $age = [int]((Get-Date) - [datetime]$ig.DriverDate).TotalDays
+        Write-Line 'Data do driver' (([datetime]$ig.DriverDate).ToString('yyyy-MM-dd') + ' (' + $age + ' dias)')
+        if ($age -gt 365) { Write-Warn2 'Driver com mais de 1 ano. Em iGPU, drivers novos costumam trazer ganho real (Relatorio > Drivers).' }
+    }
+    if (Test-DiscreteGpu) { Write-Host '   Este PC tambem tem GPU dedicada (notebook hibrido ou desktop).' -ForegroundColor Gray }
+    Write-Host ''
+    $mods = @(Get-CimInstance Win32_PhysicalMemory)
+    foreach ($m in $mods) {
+        Write-Line ([string]$m.DeviceLocator) (([math]::Round($m.Capacity / 1GB)).ToString() + ' GB | nominal ' + $m.Speed + ' MT/s | em uso ' + $m.ConfiguredClockSpeed + ' MT/s')
+    }
+    $caps = @($mods | ForEach-Object { $_.Capacity } | Select-Object -Unique)
+    if ($mods.Count -eq 1) {
+        Write-Warn2 'Apenas 1 pente de memoria: single-channel. A iGPU perde bastante desempenho, dois pentes iguais costumam dar de 30 a 50 por cento mais FPS.'
+    } elseif (($mods.Count -ge 2) -and ($caps.Count -eq 1)) {
+        Write-Ok 'Pentes iguais: provavel dual-channel (estimativa pelos slots e capacidades).'
+    } elseif ($mods.Count -ge 2) {
+        Write-Warn2 'Pentes de tamanhos diferentes: parte da memoria pode rodar em single-channel.'
+    }
+    $rated = ($mods | Measure-Object -Property Speed -Minimum).Minimum
+    $conf = ($mods | Measure-Object -Property ConfiguredClockSpeed -Minimum).Minimum
+    if ($rated -and $conf -and ($conf -lt ($rated * 0.9))) {
+        Write-Warn2 ('A RAM roda a ' + $conf + ' MT/s, abaixo dos ' + $rated + ' nominais. Ligue XMP/EXPO na BIOS.')
+    }
+    $mem = @(Get-CimInstance -ClassName Win32_PerfFormattedData_GPUPerformanceCounters_GPUAdapterMemory)
+    if ($mem.Count -gt 0) {
+        $sh = [math]::Round((($mem | Measure-Object -Property SharedUsage -Sum).Sum) / 1MB)
+        $dd = [math]::Round((($mem | Measure-Object -Property DedicatedUsage -Sum).Sum) / 1MB)
+        Write-Line 'Memoria de video' ('compartilhada em uso: ' + $sh + ' MB | dedicada em uso: ' + $dd + ' MB (agora)')
+    }
+}
+
+function Invoke-IgpuApply {
+    Write-Title 'GPU INTEGRADA INTEL'
+    $ig = Get-IntelIgpu
+    if (-not $ig) { Write-Warn2 'Nenhuma GPU integrada Intel encontrada neste PC, nada foi alterado.'; return }
+    Show-IgpuDiag $ig
+    Write-Host ''
+    Write-Host '   Aplicando ajustes:' -ForegroundColor Cyan
+    $scheme = [regex]::Match(((& powercfg /getactivescheme) | Out-String), '[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}').Value
+    $any = $false
+    if ($scheme) {
+        if (Set-PowerIdxAc $scheme '44f3beca-a7c0-460e-9df2-bb8b99e0cba6' '3619c3f2-afb2-4afc-b0e0-e4f4b8d3ee0e' 2 'igpu') { Write-Ok 'Intel Graphics Power Plan: Desempenho Maximo (na tomada)'; $any = $true }
+        if (Set-PowerIdxAc $scheme 'e276e160-7cb0-43c6-b20b-73f5dce39954' 'a1662ab2-9d34-4e53-ba8b-2639b9e20857' 3 'igpu') { Write-Ok 'Switchable Dynamic Graphics: Maximizar Desempenho (na tomada)'; $any = $true }
+    }
+    if (-not $any) { Write-Host '   O driver nao expoe o plano grafico da Intel neste PC, esse ajuste foi pulado.' -ForegroundColor Gray }
+    Invoke-IgpuVisual
+    Invoke-IgpuVram
+    Write-Host ''
+    Write-Host '   Reinicie o PC. Para desfazer: Reversoes (R) > GPU integrada.' -ForegroundColor Yellow
+}
+
+function Invoke-IgpuRevert {
+    Write-Title 'GPU INTEGRADA: revertendo ajustes'
+    $n = @(Restore-ArtState @('igpu'))[-1]
+    Write-Ok ('Itens restaurados: ' + $n + '. Faca logoff ou reinicie.')
+}
+
+# ---------- JOGOS E TELA ----------
+function Invoke-GameApply {
+    Write-Title 'JOGOS E TELA: aplicando ajustes'
+    $build = [int](Get-CimInstance Win32_OperatingSystem).BuildNumber
+    if (($build -ge 19041) -and (-not (Test-DiscreteGpu))) {
+        Write-Host '   HAGS mantido como esta: este PC so tem GPU integrada, onde o ganho e pequeno e pode travar em drivers antigos.' -ForegroundColor Gray
+    } elseif ($build -ge 19041) {
+        Set-RegVal 'game' 'HKLM:\SYSTEM\CurrentControlSet\Control\GraphicsDrivers' 'HwSchMode' 2 'DWord'
+        Write-Ok 'HAGS ativado (agendamento de GPU por hardware). So funciona com GPU e driver compativeis'
+    } else {
+        Write-Warn2 'HAGS exige Windows 10 versao 2004 ou mais novo, pulado.'
+    }
+    Set-RegVal 'game' 'HKLM:\SOFTWARE\Microsoft\Windows\Dwm' 'OverlayTestMode' 5 'DWord'
+    Write-Ok 'MPO (Multiplane Overlay) desativado'
+    $fse = 'HKCU:\System\GameConfigStore'
+    Set-RegVal 'game' $fse 'GameDVR_FSEBehaviorMode' 2 'DWord'
+    Set-RegVal 'game' $fse 'GameDVR_HonorUserFSEBehaviorMode' 1 'DWord'
+    Set-RegVal 'game' $fse 'GameDVR_DXGIHonorFSEWindowsCompatible' 1 'DWord'
+    Set-RegVal 'game' $fse 'GameDVR_EFSEFeatureFlags' 0 'DWord'
+    Write-Ok 'Otimizacoes de tela cheia desativadas (tela cheia exclusiva de verdade)'
+    Write-Host ''
+    Write-Host '   Reinicie o PC. Se algum jogo ou monitor der problema, use Reversoes (R) > Jogos e Tela.' -ForegroundColor Yellow
+}
+
+function Invoke-DvrApply {
+    Write-Title 'DEBLOAT: desativando Game DVR e Game Bar'
+    $dvr = 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR'
+    Set-RegVal 'dvr' $dvr 'AppCaptureEnabled' 0 'DWord'
+    Set-RegVal 'dvr' $dvr 'HistoricalCaptureEnabled' 0 'DWord'
+    Set-RegVal 'dvr' 'HKCU:\System\GameConfigStore' 'GameDVR_Enabled' 0 'DWord'
+    Set-RegVal 'dvr' 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR' 'AllowGameDVR' 0 'DWord'
+    Set-RegVal 'dvr' 'HKCU:\SOFTWARE\Microsoft\GameBar' 'UseNexusForGameBarEnabled' 0 'DWord'
+    Set-RegVal 'dvr' 'HKCU:\SOFTWARE\Microsoft\GameBar' 'ShowStartupPanel' 0 'DWord'
+    Write-Ok 'Game DVR e capturas em segundo plano desativados (Modo Jogo e servicos do Xbox continuam intactos)'
+}
+
+function Invoke-DvrRevert {
+    Write-Title 'DEBLOAT: reativando Game DVR e Game Bar'
+    $n = @(Restore-ArtState @('dvr'))[-1]
+    Write-Ok ('Itens restaurados: ' + $n)
+}
+
+function Get-GameSearchRoots {
+    $roots = @()
+    foreach ($d in @(Get-PSDrive -PSProvider FileSystem | Where-Object { $null -ne $_.Free })) {
+        foreach ($sub in 'SteamLibrary\steamapps\common', 'Program Files (x86)\Steam\steamapps\common', 'Program Files\Steam\steamapps\common', 'Steam\steamapps\common', 'Games', 'Jogos', 'Program Files\Epic Games', 'Epic Games', 'XboxGames', 'GOG Games', 'Program Files (x86)\GOG Galaxy\Games') {
+            $p = Join-Path $d.Root $sub
+            if (Test-Path -LiteralPath $p) { $roots += $p }
+        }
+    }
+    $steam = [string](Get-ItemProperty -Path 'HKCU:\Software\Valve\Steam').SteamPath
+    if ($steam) {
+        $vdf = Join-Path $steam 'steamapps\libraryfolders.vdf'
+        if (Test-Path -LiteralPath $vdf) {
+            foreach ($m in [regex]::Matches((Get-Content -LiteralPath $vdf -Raw), '"path"\s+"([^"]+)"')) {
+                $p = Join-Path ($m.Groups[1].Value -replace '\\\\', '\') 'steamapps\common'
+                if (Test-Path -LiteralPath $p) { $roots += $p }
+            }
+        }
+    }
+    return @($roots | Select-Object -Unique)
+}
+
+function Select-GameExe($exes) {
+    $exes = @($exes)
+    if ($exes.Count -eq 0) { return $null }
+    if ($exes.Count -eq 1) { return $exes[0].FullName }
+    Write-Host ''
+    Write-Host '   Executaveis encontrados (o jogo de verdade costuma ter Shipping no nome ou ser o maior):' -ForegroundColor Cyan
+    $i = 0
+    foreach ($x in $exes) { $i++; Write-Host ('   [{0}] {1}  ({2} MB)' -f $i, $x.FullName, [math]::Round($x.Length / 1MB, 1)) }
+    Write-Host ''
+    $n = (Read-Host '   Numero do .exe (vazio cancela)').Trim()
+    if (($n -match '^\d+$') -and ([int]$n -ge 1) -and ([int]$n -le $exes.Count)) { return $exes[[int]$n - 1].FullName }
+    return $null
+}
+
+function Find-ExesIn($folder, $filter) {
+    $bad = 'unins|crash|report|redist|setup|install|easyanticheat|battleye|helper|webview|prereq|updater'
+    return @(Get-ChildItem -LiteralPath $folder -Filter $filter -Recurse -Depth 6 -File | Where-Object { $_.Name -notmatch $bad } | Sort-Object @{ Expression = { $_.Name -match 'Shipping' }; Descending = $true }, @{ Expression = 'Length'; Descending = $true } | Select-Object -First 8)
+}
+
+function Resolve-GamePath($p) {
+    $p = ([string]$p).Trim().Trim('"')
+    if (Test-Path -LiteralPath $p -PathType Leaf) { return $p }
+    if (Test-Path -LiteralPath ($p + '.exe') -PathType Leaf) { return ($p + '.exe') }
+    if (Test-Path -LiteralPath $p -PathType Container) {
+        $exes = Find-ExesIn $p '*.exe'
+        if ($exes.Count -eq 0) { Write-Warn2 'Nao achei nenhum .exe dentro dessa pasta.'; return $null }
+        return (Select-GameExe $exes)
+    }
+    if ($p -notmatch '[\\/]') {
+        $name = [IO.Path]::GetFileNameWithoutExtension($p)
+        Write-Host ('   Procurando "' + $name + '" nas pastas de jogos (Steam, Epic, Games)...') -ForegroundColor Gray
+        $found = @()
+        foreach ($r in (Get-GameSearchRoots)) { $found += @(Find-ExesIn $r ($name + '*.exe')) }
+        if ($found.Count -eq 0) { Write-Warn2 'Nao encontrei esse jogo. Use a opcao 1 (janela de arquivos) ou a 2 (jogo aberto).'; return $null }
+        return (Select-GameExe ($found | Select-Object -First 8))
+    }
+    $q = $p
+    $up = 0
+    while ($q -and (-not (Test-Path -LiteralPath $q -PathType Container))) {
+        $parent = Split-Path -Parent $q
+        if ((-not $parent) -or ($parent -eq $q)) { $q = $null; break }
+        $q = $parent
+        $up++
+    }
+    if ($q -and ($up -eq 1)) {
+        Write-Warn2 ('O arquivo nao existe nessa pasta, mas a pasta existe: ' + $q + '. Procurando os executaveis dela...')
+        $exes = Find-ExesIn $q '*.exe'
+        if ($exes.Count -eq 0) { Write-Warn2 'Nao achei nenhum .exe nela.'; return $null }
+        return (Select-GameExe $exes)
+    }
+    if ($q) {
+        Write-Warn2 ('Esse caminho nao existe. A pasta mais proxima que existe e: ' + $q)
+        $subs = @(Get-ChildItem -LiteralPath $q -Directory | Select-Object -First 25)
+        foreach ($s2 in $subs) { Write-Host ('      ' + $s2.Name) -ForegroundColor Gray }
+        Write-Host '   Confira o nome da pasta do jogo ou use a opcao 1 ou 2.' -ForegroundColor Gray
+        return $null
+    }
+    Write-Warn2 'Caminho nao encontrado. Use a opcao 1 (janela de arquivos) ou a 2 (jogo aberto).'
+    return $null
+}
+
+function Get-GameExePath {
+    Write-Host '   Como escolher o jogo:' -ForegroundColor Cyan
+    Write-Host '   [1] Procurar o .exe numa janela de arquivos (recomendado)'
+    Write-Host '   [2] Escolher entre os programas abertos agora (abra o jogo antes, e o mais certeiro)'
+    Write-Host '   [3] Digitar o caminho completo do .exe'
+    Write-Host '   Ou cole/arraste aqui o .exe ou a pasta do jogo, ou digite so o nome (ex: InfinityNikki).'
+    Write-Host ''
+    $o = (Read-Host '   Opcao (vazio cancela)').Trim().Trim('"')
+    if ($o -and ($o -notmatch '^[123]$')) { return (Resolve-GamePath $o) }
+    if ($o -eq '1') {
+        Add-Type -AssemblyName System.Windows.Forms
+        $dlg = New-Object System.Windows.Forms.OpenFileDialog
+        $dlg.Title = 'Escolha o .exe do jogo'
+        $dlg.Filter = 'Programas (*.exe)|*.exe'
+        $owner = New-Object System.Windows.Forms.Form
+        $owner.TopMost = $true
+        $owner.ShowInTaskbar = $false
+        $owner.StartPosition = 'CenterScreen'
+        $owner.Size = New-Object System.Drawing.Size(1, 1)
+        $owner.Show()
+        $res = $dlg.ShowDialog($owner)
+        $owner.Close()
+        if ($res -eq [System.Windows.Forms.DialogResult]::OK) { return $dlg.FileName }
+        return $null
+    }
+    if ($o -eq '2') {
+        $procs = @(Get-Process | Where-Object { $_.MainWindowTitle -and $_.Path -and ($_.Path -notlike ($env:WINDIR + '\*')) } | Sort-Object ProcessName)
+        if ($procs.Count -eq 0) { Write-Warn2 'Nenhum programa com janela encontrado. Abra o jogo e tente de novo.'; return $null }
+        Write-Host ''
+        $i = 0
+        foreach ($p in $procs) {
+            $i++
+            Write-Host ('   [{0}] {1}  ({2})' -f $i, $p.ProcessName, $p.MainWindowTitle)
+        }
+        Write-Host ''
+        $n = (Read-Host '   Numero do jogo (vazio cancela)').Trim()
+        if (($n -match '^\d+$') -and ([int]$n -ge 1) -and ([int]$n -le $procs.Count)) { return $procs[[int]$n - 1].Path }
+        return $null
+    }
+    if ($o -eq '3') {
+        $p = (Read-Host '   Caminho completo do .exe ou da pasta').Trim().Trim('"')
+        if ($p) { return (Resolve-GamePath $p) }
+    }
+    return $null
+}
+
+function Invoke-GameProfile {
+    Write-Title 'JOGOS: perfil por jogo (prioridade de CPU e GPU)'
+    Write-Host '   Define CPU em Alta e a GPU de alto desempenho SO para o jogo que voce escolher.' -ForegroundColor Gray
+    Write-Host '   Evite em jogos com anti-cheat muito agressivo (ex: Vanguard).' -ForegroundColor Yellow
+    Write-Host ''
+    $in = Get-GameExePath
+    if (-not $in) { Write-Host '   Cancelado.' -ForegroundColor Yellow; return }
+    if ($in -notmatch '\.exe$') { Write-Warn2 'O arquivo precisa ser um .exe'; return }
+    $exe = Split-Path -Leaf $in
+    $ifeo = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\' + $exe + '\PerfOptions'
+    Set-RegVal 'gameprof' $ifeo 'CpuPriorityClass' 3 'DWord'
+    Set-RegVal 'gameprof' $ifeo 'IoPriority' 3 'DWord'
+    Write-Ok ('Prioridade de CPU e disco Alta para ' + $exe)
+    if (Test-Path -LiteralPath $in) {
+        Set-RegVal 'gameprof' 'HKCU:\SOFTWARE\Microsoft\DirectX\UserGpuPreferences' $in 'GpuPreference=2;' 'String'
+        Write-Ok 'GPU de alto desempenho definida para este jogo'
+    } else {
+        Write-Warn2 'Caminho nao encontrado, so a prioridade de CPU foi aplicada (a GPU precisa do caminho completo).'
+    }
+    Write-Host '   Vale na proxima vez que o jogo abrir. Para desfazer: Reversoes (R) > Jogos e Tela.' -ForegroundColor Yellow
+}
+
+function Invoke-GameRevert {
+    Write-Title 'JOGOS E TELA: revertendo ajustes'
+    $n = @(Restore-ArtState @('game', 'gameprof'))[-1]
+    Write-Ok ('Itens restaurados: ' + $n + '. Reinicie o PC.')
+}
+
+# ---------- SERVICOS ----------
+function Test-SystemSsd {
+    try {
+        $letter = $env:SystemDrive.Substring(0, 1)
+        $part = Get-Partition -DriveLetter $letter
+        $pd = Get-PhysicalDisk | Where-Object { $_.DeviceId -eq [string]$part.DiskNumber } | Select-Object -First 1
+        if ($pd -and (($pd.BusType -eq 'NVMe') -or ($pd.MediaType -eq 'SSD'))) { return $true }
+    } catch { }
+    return $false
+}
+
+function Invoke-SvcApply {
+    Write-Title 'SERVICOS: preset seguro'
+    $list = @('Fax', 'RemoteRegistry', 'WerSvc', 'DiagTrack', 'WMPNetworkSvc', 'RetailDemo')
+    if (Test-SystemSsd) { $list += 'SysMain' } else { Write-Host '   SysMain (Superfetch) mantido: o sistema nao esta em SSD.' -ForegroundColor Gray }
+    foreach ($n in $list) {
+        $s = Get-Service -Name $n
+        if (-not $s) { continue }
+        $path = 'HKLM:\SYSTEM\CurrentControlSet\Services\' + $n
+        Set-RegVal 'svc' $path 'Start' 4 'DWord'
+        Stop-Service -Name $n -Force
+        Write-Ok ('Desativado: ' + $n)
+    }
+    Write-Host '   Servicos do Xbox, audio, rede e Bluetooth nao foram tocados.' -ForegroundColor Gray
+}
+
+function Invoke-SvcRevert {
+    Write-Title 'SERVICOS: revertendo preset'
+    $n = @(Restore-ArtState @('svc'))[-1]
+    Write-Ok ('Servicos restaurados: ' + $n)
+}
+
+$global:GameModeFile = Join-Path (Join-Path $env:USERPROFILE 'ART_Backups') 'ART_GameMode.json'
+
+function Invoke-GameModeOn {
+    Write-Title 'MODO JOGO: pausando servicos pesados'
+    $list = @('WSearch', 'SysMain', 'DiagTrack', 'DoSvc', 'WerSvc', 'MapsBroker', 'wuauserv', 'UsoSvc')
+    if (Get-Process -Name 'TiWorker', 'TrustedInstaller' -ErrorAction SilentlyContinue) {
+        Write-Warn2 'O Windows esta instalando atualizacoes, Windows Update nao sera pausado.'
+        $list = $list | Where-Object { $_ -notin @('wuauserv', 'UsoSvc') }
+    }
+    $stopped = @()
+    if (Test-Path -LiteralPath $global:GameModeFile) {
+        try { $stopped = @(Get-Content -LiteralPath $global:GameModeFile -Raw | ConvertFrom-Json) } catch { }
+    }
+    foreach ($n in $list) {
+        $s = Get-Service -Name $n
+        if ($s -and ($s.Status -eq 'Running')) {
+            Stop-Service -Name $n -Force
+            $s.Refresh()
+            if ($s.Status -eq 'Stopped') {
+                if ($stopped -notcontains $n) { $stopped += $n }
+                Write-Ok ('Pausado: ' + $n)
+            }
+        }
+    }
+    New-Item -ItemType Directory -Path (Split-Path -Parent $global:GameModeFile) -Force | Out-Null
+    ConvertTo-Json -InputObject @($stopped) | Set-Content -LiteralPath $global:GameModeFile -Encoding UTF8
+    Write-Host ''
+    Write-Host '   Quando terminar de jogar, use a opcao 9 > Retomar para ligar tudo de volta.' -ForegroundColor Yellow
+}
+
+function Invoke-GameModeOff {
+    Write-Title 'MODO JOGO: retomando servicos'
+    if (-not (Test-Path -LiteralPath $global:GameModeFile)) { Write-Host '   Nada para retomar.' -ForegroundColor Yellow; return }
+    $stopped = @()
+    try { $stopped = @(Get-Content -LiteralPath $global:GameModeFile -Raw | ConvertFrom-Json) } catch { }
+    foreach ($n in $stopped) {
+        $reg = Get-ItemProperty -LiteralPath ('HKLM:\SYSTEM\CurrentControlSet\Services\' + $n)
+        if ($reg -and ($reg.Start -ne 4)) {
+            Start-Service -Name $n
+            Write-Ok ('Retomado: ' + $n)
+        }
+    }
+    Remove-Item -LiteralPath $global:GameModeFile -Force
+}
+
+# ---------- DISCO ----------
+function Get-DiskMap {
+    $res = @()
+    $pds = @(Get-PhysicalDisk)
+    foreach ($v in @(Get-Volume | Where-Object { ($_.DriveType -eq 'Fixed') -and $_.DriveLetter })) {
+        $part = Get-Partition -DriveLetter $v.DriveLetter | Select-Object -First 1
+        $pd = $pds | Where-Object { $_.DeviceId -eq [string]$part.DiskNumber } | Select-Object -First 1
+        $kind = 'Desconhecido'
+        if ($pd) {
+            if ($pd.BusType -eq 'NVMe') { $kind = 'NVMe' }
+            elseif ($pd.MediaType -eq 'SSD') { $kind = 'SSD' }
+            elseif ($pd.MediaType -eq 'HDD') { $kind = 'HDD' }
+        }
+        $res += [pscustomobject]@{ Letter = [string]$v.DriveLetter; Kind = $kind; FreeGB = [math]::Round($v.SizeRemaining / 1GB, 1); Model = [string]$pd.FriendlyName }
+    }
+    return $res
+}
+
+function Invoke-DiskCheck {
+    Write-Title 'DISCO: TRIM e modo do controlador'
+    $map = @(Get-DiskMap)
+    foreach ($d in $map) { Write-Line ($d.Letter + ':') ($d.Kind + ' | ' + $d.Model + ' | livre ' + $d.FreeGB + ' GB') }
+    Write-Host ''
+    $hasSsd = @($map | Where-Object { $_.Kind -in @('SSD', 'NVMe') }).Count -gt 0
+    $out = (& fsutil behavior query DisableDeleteNotify) | Out-String
+    $m = [regex]::Match($out, '=\s*(\d)')
+    if ($m.Success -and ($m.Groups[1].Value -eq '0')) {
+        Write-Ok 'TRIM esta ATIVO'
+    } elseif ($m.Success) {
+        if ($hasSsd) {
+            & fsutil behavior set DisableDeleteNotify 0 | Out-Null
+            Write-Ok 'TRIM estava DESATIVADO, ativei agora'
+        } else {
+            Write-Warn2 'TRIM desativado, mas voce nao tem SSD (nao faz diferenca em HD).'
+        }
+    } else {
+        Write-Warn2 'Nao consegui ler o estado do TRIM.'
+    }
+    Write-Host ''
+    $ide = @(Get-CimInstance Win32_IDEController | ForEach-Object { [string]$_.Name })
+    $scsi = @(Get-CimInstance Win32_SCSIController | ForEach-Object { [string]$_.Name })
+    foreach ($c in ($ide + $scsi)) { Write-Line 'Controlador' $c }
+    Write-Host ''
+    $isAhci = @($ide | Where-Object { $_ -match 'AHCI' }).Count -gt 0
+    $isIde = @($ide | Where-Object { ($_ -match 'IDE') -and ($_ -notmatch 'AHCI') }).Count -gt 0
+    $isNvme = @($scsi | Where-Object { $_ -match 'NVM Express|NVMe' }).Count -gt 0
+    $isRaid = @(($ide + $scsi) | Where-Object { $_ -match 'RAID|Rapid Storage|VMD' }).Count -gt 0
+    if ($isIde) { Write-Warn2 'A BIOS parece estar em modo IDE/Legacy. Mude para AHCI na BIOS, mas prepare o Windows antes (modo seguro) senao ele nao inicia. Nao altero isso automaticamente.' }
+    if ($isAhci) { Write-Ok 'Controlador SATA em modo AHCI' }
+    if ($isNvme) { Write-Ok 'Driver NVMe nativo do Windows em uso' }
+    if ($isRaid) { Write-Warn2 'Controlador em modo RAID/Intel RST/VMD. Funciona, mas se voce nao usa RAID, AHCI/NVMe nativo costuma ser um pouco mais rapido.' }
+    if ((-not $isIde) -and (-not $isAhci) -and (-not $isNvme) -and (-not $isRaid)) { Write-Host '   Nao foi possivel identificar o modo do controlador.' -ForegroundColor Gray }
+}
+
+function Invoke-DiskSsdOpt {
+    Write-Title 'DISCO: otimizacoes para SSD'
+    $map = @(Get-DiskMap)
+    $ssds = @($map | Where-Object { $_.Kind -in @('SSD', 'NVMe') })
+    $hdds = @($map | Where-Object { $_.Kind -eq 'HDD' })
+    if ($ssds.Count -eq 0) { Write-Warn2 'Nenhum SSD detectado, nada foi alterado.'; return }
+    foreach ($d in $ssds) {
+        $vol = Get-CimInstance Win32_Volume -Filter ("DriveLetter='" + $d.Letter + ":'")
+        if ($vol -and $vol.IndexingEnabled) {
+            Add-ArtState 'disk' 'idx' $d.Letter 'IndexingEnabled' $true 'True' ''
+            Set-CimInstance -InputObject $vol -Property @{ IndexingEnabled = $false }
+            Write-Ok ('Indexacao desativada na unidade ' + $d.Letter + ': (' + $d.Kind + ')')
+        }
+    }
+    if (Test-SystemSsd) {
+        Set-RegVal 'disk' 'HKLM:\SYSTEM\CurrentControlSet\Services\WSearch' 'Start' 4 'DWord'
+        Stop-Service -Name 'WSearch' -Force
+        Write-Ok 'Servico de indexacao (WSearch) desativado. A busca do Explorer fica um pouco mais lenta'
+    }
+    $t = Get-ScheduledTask -TaskPath '\Microsoft\Windows\Defrag\' -TaskName 'ScheduledDefrag'
+    if ($hdds.Count -gt 0) {
+        Write-Host '   Desfragmentacao agendada mantida: voce tem HD, ele precisa dela.' -ForegroundColor Gray
+    } elseif ($t -and ($t.State -ne 'Disabled')) {
+        Add-ArtState 'disk' 'task' '\Microsoft\Windows\Defrag\' 'ScheduledDefrag' $true ([string]$t.State) ''
+        Disable-ScheduledTask -TaskPath '\Microsoft\Windows\Defrag\' -TaskName 'ScheduledDefrag' | Out-Null
+        Write-Ok 'Desfragmentacao agendada desativada (so tem SSD). O TRIM continua automatico'
+    }
+    & fsutil behavior set DisableDeleteNotify 0 | Out-Null
+    Write-Ok 'TRIM garantido como ativo'
+}
+
+function Invoke-DiskTemp {
+    Write-Title 'DISCO: mover a pasta Temp para a unidade mais rapida'
+    $map = @(Get-DiskMap)
+    $sys = $env:SystemDrive.Substring(0, 1)
+    $rank = @{ 'NVMe' = 2; 'SSD' = 1; 'HDD' = 0; 'Desconhecido' = 0 }
+    $sysDisk = $map | Where-Object { $_.Letter -eq $sys } | Select-Object -First 1
+    $sysRank = 0
+    if ($sysDisk) { $sysRank = $rank[$sysDisk.Kind] }
+    $best = $map | Where-Object { ($_.Letter -ne $sys) -and ($_.FreeGB -ge 20) -and ($rank[$_.Kind] -gt $sysRank) } | Sort-Object { $rank[$_.Kind] }, FreeGB -Descending | Select-Object -First 1
+    if (-not $best) {
+        Write-Ok 'A unidade do sistema ja e a mais rapida (ou nao ha outra unidade rapida com 20 GB livres). Mover o Temp nao traria ganho.'
+        return
+    }
+    Write-Line 'Melhor destino' ($best.Letter + ': (' + $best.Kind + ', ' + $best.FreeGB + ' GB livres)')
+    $ans = (Read-Host '   Mover o Temp do seu usuario para essa unidade? Digite S para confirmar').Trim()
+    if ($ans -notmatch '^[SsYy]$') { Write-Host '   Cancelado.' -ForegroundColor Yellow; return }
+    $dir = $best.Letter + ':\ART_Temp'
+    New-Item -ItemType Directory -Path $dir -Force | Out-Null
+    & icacls $dir /grant '*S-1-5-32-545:(OI)(CI)M' | Out-Null
+    Set-RegVal 'disk' 'HKCU:\Environment' 'TEMP' $dir 'ExpandString'
+    Set-RegVal 'disk' 'HKCU:\Environment' 'TMP' $dir 'ExpandString'
+    Write-Ok ('Temp e TMP agora apontam para ' + $dir)
+    Write-Host '   Faca logoff ou reinicie o PC para valer. Para desfazer: Reversoes (R) > Disco.' -ForegroundColor Yellow
+}
+
+function Invoke-DiskRevert {
+    Write-Title 'DISCO: revertendo ajustes'
+    $n = @(Restore-ArtState @('disk'))[-1]
+    Write-Ok ('Itens restaurados: ' + $n + '. Se o Temp foi movido, faca logoff ou reinicie.')
+}
+
+# ---------- CPU ----------
+function Set-PowerIdx($scheme, $sub, $setting, $val) {
+    $o = (& powercfg /q $scheme $sub $setting) | Out-String
+    $m = [regex]::Matches($o, '0x[0-9a-fA-F]{8}')
+    if ($m.Count -lt 2) { return $false }
+    $ac = [Convert]::ToInt32($m[$m.Count - 2].Value, 16)
+    $dc = [Convert]::ToInt32($m[$m.Count - 1].Value, 16)
+    Add-ArtState 'cpu' 'pcfg' $scheme ($sub + '|' + $setting) $true ([string]$ac + ',' + [string]$dc) ''
+    & powercfg /setacvalueindex $scheme $sub $setting $val | Out-Null
+    & powercfg /setactive $scheme | Out-Null
+    return $true
+}
+
+function Set-IrqAffinity($pnpId, $cpuIndex) {
+    $base = 'HKLM:\SYSTEM\CurrentControlSet\Enum\' + $pnpId + '\Device Parameters\Interrupt Management\Affinity Policy'
+    $mask = [BitConverter]::GetBytes(([uint64]1) -shl $cpuIndex)
+    Set-RegVal 'cpu' $base 'DevicePolicy' 4 'DWord'
+    Set-RegVal 'cpu' $base 'AssignmentSetOverride' $mask 'Binary'
+}
+
+function Invoke-CpuExtra {
+    Write-Title 'CPU: boost agressivo, CPU hibrida e afinidade de interrupcoes'
+    $cpu = Get-CimInstance Win32_Processor | Select-Object -First 1
+    $cores = [int](Get-CimInstance Win32_Processor | Measure-Object -Property NumberOfCores -Sum).Sum
+    $logical = [int](Get-CimInstance Win32_ComputerSystem).NumberOfLogicalProcessors
+    $scheme = [regex]::Match(((& powercfg /getactivescheme) | Out-String), '[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}').Value
+    if (-not $scheme) { Write-Warn2 'Nao achei o plano de energia ativo.'; return }
+    Write-Line 'CPU' ([string]$cpu.Name)
+    Write-Host ''
+    $sub = 'SUB_PROCESSOR'
+    if (Test-DiscreteGpu) {
+        if (Set-PowerIdx $scheme $sub 'PERFBOOSTMODE' 2) { Write-Ok 'Modo de boost: Agressivo' } else { Write-Host '   PERFBOOSTMODE indisponivel neste PC.' -ForegroundColor Gray }
+        if (Set-PowerIdx $scheme $sub 'PERFBOOSTPOL' 100) { Write-Ok 'Politica de boost: 100' }
+        if (Set-PowerIdx $scheme $sub 'PERFEPP' 0) { Write-Ok 'EPP (preferencia de energia/desempenho): 0, maximo desempenho' } else { Write-Host '   PERFEPP indisponivel (CPU sem HWP).' -ForegroundColor Gray }
+    } else {
+        Write-Host '   Boost agressivo e EPP 0 pulados: so ha GPU integrada, e CPU e iGPU dividem o mesmo limite de energia e temperatura.' -ForegroundColor Gray
+    }
+    if ([string]$cpu.Name -match 'Core\(TM\) (Ultra|i[3579]-1[2-9]\d{3})') {
+        Write-Host ''
+        Write-Host '   CPU hibrida Intel (P-cores e E-cores) detectada.' -ForegroundColor Cyan
+        $a = Set-PowerIdx $scheme $sub 'SCHEDPOLICY' 2
+        $b = Set-PowerIdx $scheme $sub 'SHORTSCHEDPOLICY' 2
+        if ($a -or $b) { Write-Ok 'Agendamento de threads: preferir nucleos de desempenho (P-cores)' } else { Write-Host '   Politica de agendamento hibrido indisponivel neste Windows.' -ForegroundColor Gray }
+    } else {
+        Write-Host '   CPU nao e hibrida Intel, ajuste de P/E-cores nao se aplica.' -ForegroundColor Gray
+    }
+    Write-Host ''
+    if ($logical -ge 6) {
+        $ht = $logical -gt $cores
+        $gpuCpu = 2
+        $nicCpu = 3
+        if ($ht) { $nicCpu = 4 }
+        $gpu = Get-CimInstance Win32_VideoController | Where-Object { ([string]$_.PNPDeviceID -like 'PCI\*') -and ([string]$_.Name -notmatch 'Basic|Microsoft') } | Sort-Object AdapterRAM -Descending | Select-Object -First 1
+        if ($gpu) {
+            Set-IrqAffinity $gpu.PNPDeviceID $gpuCpu
+            Write-Ok ('Interrupcoes da GPU fixadas no CPU ' + $gpuCpu)
+        }
+        $nic = Get-NetAdapter -Physical | Where-Object { ($_.Status -eq 'Up') -and ([string]$_.PnPDeviceID -like 'PCI\*') } | Select-Object -First 1
+        if ($nic) {
+            Set-IrqAffinity $nic.PnPDeviceID $nicCpu
+            Write-Ok ('Interrupcoes da rede fixadas no CPU ' + $nicCpu)
+        }
+        if ((-not $gpu) -and (-not $nic)) { Write-Host '   Nenhuma GPU ou placa de rede PCI encontrada para fixar.' -ForegroundColor Gray }
+        Write-Host '   Reinicie o PC. Se rodar os ajustes de GPU (NVIDIA/AMD/Intel) depois, rode este de novo.' -ForegroundColor Yellow
+    } else {
+        Write-Host '   Menos de 6 processadores logicos: separar interrupcoes nao traz ganho, pulado.' -ForegroundColor Gray
+    }
+}
+
+function Invoke-CpuRevert {
+    Write-Title 'CPU: revertendo boost, EPP e afinidade'
+    $n = @(Restore-ArtState @('cpu'))[-1]
+    Write-Ok ('Itens restaurados: ' + $n + '. Reinicie o PC.')
+}
+
+# ---------- DPC (usado no medidor antes/depois) ----------
+function Get-DpcSample {
+    $dpc = @()
+    $int = @()
+    for ($i = 0; $i -lt 6; $i++) {
+        $c = Get-CimInstance -ClassName Win32_PerfFormattedData_Counters_ProcessorInformation -Filter "Name='_Total'"
+        if (($i -gt 0) -and $c) {
+            $dpc += [double]$c.PercentDPCTime
+            $int += [double]$c.PercentInterruptTime
+        }
+        Start-Sleep -Milliseconds 1000
+    }
+    if ($dpc.Count -eq 0) { return $null }
+    return [pscustomobject]@{
+        Dpc = [math]::Round(($dpc | Measure-Object -Average).Average, 2)
+        Int = [math]::Round(($int | Measure-Object -Average).Average, 2)
+    }
+}
+
+
 switch ($mode) {
     'startup' { Show-StartupManager }
     'backup'  { Invoke-ARTBackup }
@@ -5125,6 +6411,28 @@ switch ($mode) {
     'checks'    { Show-Checks }
     'gpudrivers' { Open-GpuDrivers }
     'usedpc'    { Show-UsedPc }
+    'net_apply' { Invoke-NetApply }
+    'wifi_apply' { Invoke-WifiApply }
+    'net_dns' { Invoke-DnsTest }
+    'net_revert' { Invoke-NetRevert }
+    'game_apply' { Invoke-GameApply }
+    'igpu_apply' { Invoke-IgpuApply }
+    'igpu_vram' { Invoke-IgpuVram }
+    'igpu_revert' { Invoke-IgpuRevert }
+    'dvr_apply' { Invoke-DvrApply }
+    'dvr_revert' { Invoke-DvrRevert }
+    'game_profile' { Invoke-GameProfile }
+    'game_revert' { Invoke-GameRevert }
+    'svc_apply' { Invoke-SvcApply }
+    'svc_revert' { Invoke-SvcRevert }
+    'gm_on' { Invoke-GameModeOn }
+    'gm_off' { Invoke-GameModeOff }
+    'disk_check' { Invoke-DiskCheck }
+    'disk_ssd' { Invoke-DiskSsdOpt }
+    'disk_temp' { Invoke-DiskTemp }
+    'disk_revert' { Invoke-DiskRevert }
+    'cpu_extra' { Invoke-CpuExtra }
+    'cpu_revert' { Invoke-CpuRevert }
 }
 #PS_ART_END
 #BKEY HKCU\CONSOLE
@@ -5266,3 +6574,16 @@ switch ($mode) {
 #BKEY HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
 #BKEY HKLM\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization
 #BKEY HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Power
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+#BKEY HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\WSearch
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\SysMain
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\Fax
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\RemoteRegistry
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\WerSvc
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\DiagTrack
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\WMPNetworkSvc
+#BKEY HKLM\SYSTEM\CurrentControlSet\Services\RetailDemo
+#BKEY HKCU\SOFTWARE\Microsoft\DirectX
+#BKEY HKCU\SOFTWARE\Microsoft\GameBar
+#BKEY HKCU\Environment
