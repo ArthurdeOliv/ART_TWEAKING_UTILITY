@@ -3,6 +3,48 @@
 Todas as mudanças relevantes deste projeto são registradas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.1.2] - 2026-11-22
+
+Versão de novidades: nova aba de **Rede**, mais opções de **Disco**, **Jogos e Tela** e **CPU**, novas reversões e correções nos menus.
+
+### Adicionado
+- Nova aba **14 – Ajustes de Rede**:
+  - Otimizações de rede: desativa a economia de energia da placa, Gigabit Lite, EEE e o algoritmo de Nagle, coloca velocidade e duplex no máximo e ajusta RSS e TCP.
+  - Teste e aplicação do DNS mais rápido.
+  - Aprimoramento de Wi-Fi: ajustes do adaptador, análise dos canais vizinhos e teste de estabilidade.
+  - Reversão própria dentro da aba.
+- **Ajustes de disco:** três opções novas.
+  - **4 –** verificar TRIM e o modo do controlador (AHCI/NVMe).
+  - **5 –** otimizar SSD, desativando indexação e desfragmentação agendada.
+  - **6 –** mover a pasta Temp para a unidade mais rápida.
+- **Ajustes de GPU:** três opções novas.
+  - **4 – Jogos e Tela:** HAGS, MPO e otimizações de tela cheia.
+  - **5 – Perfil por jogo:** prioridade de CPU e GPU para um jogo escolhido.
+  - **6 – GPU integrada Intel:** plano gráfico, efeitos visuais e memória de vídeo.
+- **Ajustes de CPU:** ajustes extras de boost agressivo, CPU híbrida e afinidade de interrupções.
+- **Debloat:** nova opção **8 – Otimizar Serviços (preset seguro)**, **9 – Modo Jogo** (pausa serviços pesados enquanto você joga e retoma depois) e **10 – Desativar Game DVR e Game Bar**.
+- **Medidor antes/depois:** passou a medir também o tempo em DPC e em interrupções (a medição leva cerca de 5 segundos).
+- **Reversões / Correções:** cinco opções novas.
+  - **17 –** Rede.
+  - **18 –** Jogos e Tela.
+  - **19 –** Disco.
+  - **20 –** CPU extra.
+  - **21 –** GPU integrada Intel.
+- Opção de reiniciar o PC na hora, direto na tela de saída do utilitário.
+
+### Alterado
+- Título do menu principal atualizado para **0.1.2**.
+- **Relatório / Checagens** passou da opção 14 para a **15**, e **Ajustes de Rede** ocupa a **14**.
+- Mensagem de saída reescrita: agora mostra o nome do usuário, pergunta se deseja reiniciar o PC e fecha direto, sem esperar uma tecla.
+- O MPO deixou de ser alterado pelas **Otimizações gerais** e passou a ser controlado em **GPU > Ajustes de Jogos e Tela**. As Otimizações gerais continuam respeitando a configuração de tela cheia de cada jogo.
+
+### Corrigido
+- Mensagem de saída aparecia cortada (", obrigado por usar...") porque o texto entre dois pontos de exclamação era consumido pelo Batch.
+- A opção **3** dos Ajustes de disco (economia de energia do SSD/NVMe) voltava ao menu principal. Agora volta ao menu de disco.
+
+### Removido
+- Chaves de Latency Tolerance (energia e GPU) e limiares de idle do driver NVIDIA (`RMLpwr*`), por não terem ganho comprovado.
+
 ## [0.1.1] - 2026-11-21
 
 Versão de limpeza: remove ajustes sem efeito comprovado nos testes, ou que mexiam em proteções do sistema sem necessidade, e organiza os menus.
