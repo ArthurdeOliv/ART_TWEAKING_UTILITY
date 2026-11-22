@@ -13,7 +13,7 @@ Obrigado pelo interesse em melhorar o ART Tweaking Utility.
 Para cada ajuste proposto, descreva:
 
 1. O que ele altera (chave de registro, serviço, tarefa ou comando).
-2. O ganho esperado e como foi medido (use a aba 14 para medir antes e depois).
+2. O ganho esperado e como foi medido (use a aba 15 para medir antes e depois).
 3. O risco e como reverter.
 
 Ajustes sem efeito comprovado, que reduzam a segurança sem aviso claro ou que sejam apenas "placebo" não serão aceitos.
