@@ -109,9 +109,17 @@ O menu principal tem as opções numeradas de 1 a 15, mais as letras **R**, **X*
 ### P. Backup / Restauração
 - Criação de ponto de restauração do Windows.
 - Backup de chaves de Registro, tipos de inicialização de serviços e estado de tarefas agendadas.
-- Restauração de um backup salvo e acesso à pasta de backups (`Art_Backups`, dentro da sua pasta de usuário).
+- Restauração de um backup salvo e acesso à pasta de backups (`ART_Backups`, dentro da sua pasta de usuário).
+- Os backups incluem chaves do Registro, tipos de inicialização de serviços e estado de tarefas agendadas. Não cobrem alterações feitas com `bcdedit`, planos de energia ou opções NTFS; para esses casos, use um ponto de restauração.
 
 ### X. Sair do utilitário
+
+## Simulação e registros
+
+- É possível iniciar o utilitário com `-DryRun` ou `/DryRun` para simular as operações da página **Debloat** e suas reversões, sem aplicar as alterações simuladas.
+- A simulação não representa uma execução de teste de todos os menus: ela é limitada ao Debloat e às reversões correspondentes.
+- As ações e avisos registrados pelas rotinas PowerShell são salvos em arquivos de sessão em `%USERPROFILE%\ART_Backups\Logs`, com data e hora no nome.
+- O estado original de ajustes compatíveis com reversão é registrado em `%USERPROFILE%\ART_Backups\ART_Tweaks_State.json`.
 
 ## Níveis de risco
 
@@ -176,4 +184,4 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 **Versão atual: 0.1.2 — Em desenvolvimento.**
 
-Novas funcionalidades, melhorias de compatibilidade, correções e otimizações estão previstas para as próximas versões.
+A versão 0.1.2 continua em desenvolvimento e reúne as funcionalidades, melhorias e correções descritas neste README e no CHANGELOG.
