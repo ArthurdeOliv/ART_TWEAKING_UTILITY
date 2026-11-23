@@ -3,9 +3,9 @@
 Todas as mudanças relevantes deste projeto são registradas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
-## [0.1.2] - 2026-11-22
+## [0.1.2] - 2026-11-23
 
-Versão de novidades: nova aba de **Rede**, mais opções de **Disco**, **Jogos e Tela** e **CPU**, novas reversões e correções nos menus.
+Versão em desenvolvimento: reúne a nova aba de **Rede**, opções adicionais de **Disco**, **Jogos e Tela** e **CPU**, melhorias no Debloat, simulação, registros de sessão, backups e correções nos menus. Todas as alterações abaixo fazem parte da mesma versão **0.1.2**.
 
 ### Adicionado
 - Nova aba **14 – Ajustes de Rede**:
@@ -22,7 +22,8 @@ Versão de novidades: nova aba de **Rede**, mais opções de **Disco**, **Jogos 
   - **5 – Perfil por jogo:** prioridade de CPU e GPU para um jogo escolhido.
   - **6 – GPU integrada Intel:** plano gráfico, efeitos visuais e memória de vídeo.
 - **Ajustes de CPU:** ajustes extras de boost agressivo, CPU híbrida e afinidade de interrupções.
-- **Debloat:** nova opção **8 – Otimizar Serviços (preset seguro)**, **9 – Modo Jogo** (pausa serviços pesados enquanto você joga e retoma depois) e **10 – Desativar Game DVR e Game Bar**.
+- **Debloat:** novas opções **8 – Otimizar Serviços (preset seguro)**, **9 – Modo Jogo** (pausa serviços pesados enquanto você joga e retoma depois), **10 – Desativar Game DVR e Game Bar** e **11 – Remover OneDrive**.
+  - A remoção do OneDrive preserva as pastas e os arquivos locais, verifica arquivos disponíveis somente na nuvem, bloqueia a sincronização e permite reinstalar o OneDrive pela reversão do Debloat.
 - **Medidor antes/depois:** passou a medir também o tempo em DPC e em interrupções (a medição leva cerca de 5 segundos).
 - **Reversões / Correções:** cinco opções novas.
   - **17 –** Rede.
@@ -31,6 +32,10 @@ Versão de novidades: nova aba de **Rede**, mais opções de **Disco**, **Jogos 
   - **20 –** CPU extra.
   - **21 –** GPU integrada Intel.
 - Opção de reiniciar o PC na hora, direto na tela de saída do utilitário.
+- Modo de simulação `-DryRun` ou `/DryRun` para visualizar, sem aplicar, as operações do Debloat e suas reversões. A simulação não abrange os demais menus.
+- Logs por sessão em `%USERPROFILE%\ART_Backups\Logs`, com registro de ações, avisos e operações simuladas.
+- Registro do estado original de ajustes reversíveis em `%USERPROFILE%\ART_Backups\ART_Tweaks_State.json`.
+- Detecção de notebook pelo tipo de chassi SMBIOS, usando a presença de bateria como critério de desempate quando necessário.
 
 ### Alterado
 - Título do menu principal atualizado para **0.1.2**.
