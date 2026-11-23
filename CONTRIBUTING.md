@@ -24,4 +24,5 @@ Ajustes sem efeito comprovado, que reduzam a segurança sem aviso claro ou que s
 - Salve o `.cmd` com final de linha **CRLF** (o `.gitattributes` cuida disso).
 - Não inclua código copiado de outros projetos sem licença compatível e sem crédito.
 - Teste em uma máquina virtual ou em um PC com ponto de restauração criado.
-- Atualize o `CHANGELOG.md`.
+- Quando alterar o Debloat ou suas reversões, confira também o modo de simulação (`-DryRun`); ele não cobre os demais menus.
+- Atualize o `README.md` e acrescente as mudanças à seção **0.1.2** do `CHANGELOG.md`, enquanto esta versão continuar sendo a versão publicada/em desenvolvimento.
