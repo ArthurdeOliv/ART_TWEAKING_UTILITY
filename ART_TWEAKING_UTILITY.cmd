@@ -3248,6 +3248,21 @@ bcdedit /deletevalue useplatformclock  >nul 2>&1
 echo %w% - Desativando Synthetic Timers%b%
 bcdedit /set useplatformtick yes  >nul 2>&1
 
+echo %w% - Desativando High Precision Event Timer no Gerenciador de Dispositivos (Dispositivos do sistema)%b%
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$d=@(Get-PnpDevice -ErrorAction SilentlyContinue | Where-Object { $_.InstanceId -like 'ACPI\PNP0103*' }); if ($d.Count -eq 0) { Write-Host '   HPET nao encontrado neste PC, nada a desativar.' } else { foreach ($x in $d) { try { Disable-PnpDevice -InstanceId $x.InstanceId -Confirm:$false -ErrorAction Stop; Write-Host ('   HPET desativado no Gerenciador de Dispositivos: ' + $x.FriendlyName) } catch { Write-Host '   Nao foi possivel desativar o HPET (precisa de administrador).' } } }"
+
+::Timer do kernel
+echo %w% - Garantindo GlobalTimerResolutionRequest = 1%b%
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "GlobalTimerResolutionRequest" /t REG_DWORD /d "1" /f >nul 2>&1
+
+::Mouse e acessibilidade
+echo %w% - Garantindo MouseThreshold1 e MouseThreshold2 em 0%b%
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold1" /t REG_SZ /d "0" /f >nul 2>&1
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold2" /t REG_SZ /d "0" /f >nul 2>&1
+echo %w% - Garantindo Flags das Teclas do Mouse e das Teclas de Filtro em 0%b%
+Reg.exe add "HKCU\Control Panel\Accessibility\MouseKeys" /v "Flags" /t REG_SZ /d "0" /f >nul 2>&1
+Reg.exe add "HKCU\Control Panel\Accessibility\Keyboard Response" /v "Flags" /t REG_SZ /d "0" /f >nul 2>&1
+
 ::nfts
 echo %w% - NFTS Tweaks%b%
 fsutil behavior set memoryusage 2 >nul 2>&1
@@ -4056,7 +4071,7 @@ echo.
 echo.
 echo.
 echo %w% - Desativando Teclas de Filtro (recurso inutil, um placebo)%b%
-Reg.exe add "HKCU\Control Panel\Accessibility\Keyboard Response" /v "Flags" /t REG_SZ /d "122" /f
+Reg.exe add "HKCU\Control Panel\Accessibility\Keyboard Response" /v "Flags" /t REG_SZ /d "0" /f
 echo %w% - Desativando Teclas de Alternancia%b%
 Reg.exe add "HKCU\Control Panel\Accessibility\ToggleKeys" /v "Flags" /t REG_SZ /d "58" /f
 echo %w% - Desativando Teclas de Aderencia%b%
