@@ -24,12 +24,13 @@ Ao abrir, o utilitário pergunta se você quer criar um ponto de restauração e
 
 ## Funcionalidades
 
-O menu principal tem as opções numeradas de 1 a 15, mais as letras **R**, **X** e **P**.
+O menu principal tem as opções numeradas de 1 a 15, mais as letras **D**, **X** e **P**.
 
 ### 1. Otimizações gerais
 - Ajustes gerais de latência e desempenho no Registro e no `bcdedit`.
 - Ajustes de inicialização e de execução do sistema.
 - Respeita a configuração de tela cheia de cada jogo, sem apagar as outras opções gráficas. HAGS e MPO ficam em **GPU > Ajustes de Jogos e Tela**.
+- Acessibilidade: desativa as **Teclas de Aderência** (atalho do Shift cinco vezes, ícone na barra, bloqueio com duas pressões, desligar com duas teclas e som) e as **Teclas do Mouse** (desativadas, sem atalho, aviso, som, ícone ou CTRL/SHIFT), com velocidade e aceleração no padrão do Windows. As **Teclas de Filtro** também ficam desativadas.
 
 ### 2. Otimização de mouse e teclado
 - Ajustes de Registro para mouse e teclado.
@@ -39,7 +40,7 @@ O menu principal tem as opções numeradas de 1 a 15, mais as letras **R**, **X*
 - Configurações para Windows 10 e Windows 11.
 - Efeitos visuais personalizados, transparência, notificações, Pesquisa do Windows, sincronização, diagnósticos, rastreamento, apps em segundo plano, SmartScreen, feed de atividades e relatório de erros.
 - Submenu de ajustes do Windows 11: Copilot, Recall, Widgets e menu clássico do botão direito.
-- Opção de reverter a categoria.
+- Opção **R** (Reverter Categoria): abre o menu **Reversões / Correções**, que desfaz ajustes específicos de várias abas (planos de energia, apps, Xbox, GameDVR, notificações, Bluetooth, hibernação, manutenção, impressão e mapas, SmartScreen, diagnósticos, relatório de erros, ajustes do Windows 11 e de energia, Idle Power Management do StorPort, Rede, Jogos e Tela, Disco, CPU extra e GPU integrada Intel).
 
 ### 4. Limpeza do PC
 - Limpeza de dados temporários de dispositivos.
@@ -74,11 +75,15 @@ O menu principal tem as opções numeradas de 1 a 15, mais as letras **R**, **X*
 
 ### 11. Debloat do sistema
 - Desativação de telemetria, telemetria do Office, impressão e mapas, autologgers e programa de experiência do cliente.
-- Desinstalação de apps pré-instalados desnecessários e da Cortana.
+- Desinstalação de apps pré-instalados e recursos indesejados, pela opção **2** ou por **A – Aplicar tudo**. Cada item mostra se foi removido, se já não estava instalado ou se o Windows não deixou remover:
+  - **Apps da Store:** 3D Viewer, Dev Home, Remote Desktop Client, Tips, Bing Search, Get Help, Mixed Reality, Microsoft 365 (Office), People, Skype, To Do, Copilot, Family, Filmes e TV, Outlook for Windows, Quick Assist, Sticky Notes, Phone Link, Cortana, Feedback Hub, News, OneNote, Solitaire Collection, Teams, Wallet, Weather, Maps e Apps Bing, além de pacotes antigos (Messaging, OneConnect, Print 3D, 3D Builder, CommsPhone, Drawboard, Sway e WindowsPhone). Os pacotes provisionados também são removidos, para os apps não voltarem em contas novas.
+  - **Recursos do Windows:** WordPad, reconhecimento facial do Windows Hello, Gravador de Passos, Quick Assist, escrita à mão (todos os idiomas), Internet Explorer e Recall.
+  - **OneDrive** (desinstalado) e **OneSync** (serviço de sincronização de Email, Calendário e Pessoas, desativado).
+  - Alguns itens só somem do Menu Iniciar, ou terminam de ser removidos, depois de reiniciar o PC.
 - **Otimizar Serviços** com preset seguro.
 - **Modo Jogo:** pausa serviços pesados enquanto você joga e retoma depois.
 - Desativação de **Game DVR e Game Bar**.
-- Reversão própria (opção **R**), com **A – Reverter tudo** ou item por item.
+- Reversão própria (opção **R**), com **A – Reverter tudo** ou item por item. Ela registra de novo apps que ainda existem no disco, mas não reinstala o que já foi removido de vez: para isso, use o ponto de restauração.
 
 ### 12. Ajustes de disco
 - Trim nos SSDs e desfragmentação nos HDs, em todas as unidades encontradas.
@@ -103,8 +108,10 @@ O menu principal tem as opções numeradas de 1 a 15, mais as letras **R**, **X*
 - **Verificações de hardware:** RAM abaixo da velocidade nominal (XMP/EXPO desligado), taxa de atualização do monitor abaixo do máximo, saúde do SSD e idade do driver de vídeo.
 - **PC em uso:** mostra os processos que mais usam RAM, os itens de inicialização e os serviços de terceiros. Só exibe, quem decide o que desligar é você.
 
-### R. Reversões / Correções
-- Reverte ajustes específicos aplicados pelo utilitário (planos de energia, apps, Xbox, GameDVR, notificações, Bluetooth, hibernação, manutenção, impressão e mapas, SmartScreen, diagnósticos, relatório de erros, ajustes do Windows 11 e de energia e Idle Power Management do StorPort, Rede, Jogos e Tela, Disco, CPU extra e GPU integrada Intel).
+### D. Baixar pasta Tools
+- Baixa a pasta `tools` deste repositório (a partir da branch `main` no GitHub) e a salva ao lado do `ART_TWEAKING_UTILITY.cmd`, em `tools`.
+- Usa só o PowerShell do Windows (não precisa do Git) e exige conexão com a internet e o repositório público.
+- Se a pasta já existir, os arquivos baixados sobrescrevem os de mesmo nome, e os demais arquivos que você tiver lá são mantidos. Ao terminar, a pasta é aberta no Explorer.
 
 ### P. Backup / Restauração
 - Criação de ponto de restauração do Windows.
@@ -182,6 +189,6 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 ## Status do projeto
 
-**Versão atual: 0.1.2 — Em desenvolvimento.**
+**Versão atual: 0.1.3 — Em desenvolvimento.**
 
-A versão 0.1.2 continua em desenvolvimento e reúne as funcionalidades, melhorias e correções descritas neste README e no CHANGELOG.
+A versão 0.1.3 continua em desenvolvimento e reúne as funcionalidades, melhorias e correções descritas neste README e no CHANGELOG.

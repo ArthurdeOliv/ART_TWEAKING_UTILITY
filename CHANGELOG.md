@@ -3,7 +3,32 @@
 Todas as mudanças relevantes deste projeto são registradas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
-## [0.1.2] - 2026-11-23
+## [0.1.3] - 2026-11-23
+
+Versão em desenvolvimento: troca a opção **R** do menu principal pelo download da pasta `tools`, amplia a remoção de apps do Debloat e acrescenta ajustes de acessibilidade às Otimizações gerais. Todas as alterações abaixo fazem parte da mesma versão **0.1.3**.
+
+### Adicionado
+- Menu principal: opção **D – Baixar pasta Tools**. Baixa a pasta `tools` do repositório no GitHub (branch `main`) e a salva ao lado do `.cmd`, mantendo arquivos extras que já estejam lá, e abre a pasta no Explorer ao terminar. Se o download falhar, mostra uma mensagem e volta ao menu.
+- **Otimizações gerais:** passaram a garantir as configurações de acessibilidade.
+  - **Teclas de Aderência:** atalho do Shift cinco vezes, ícone na barra de tarefas, bloqueio com duas pressões, desligar com duas teclas e som, tudo desativado.
+  - **Teclas do Mouse:** desativadas, sem atalho, aviso, som, ícone ou CTRL/SHIFT, com velocidade máxima (`MaximumSpeed`) e aceleração (`TimeToMaximumSpeed`) nos padrões do Windows.
+- **Debloat > Desinstalar Apps Inuteis** (opção 2 e **A – Aplicar tudo**): passa a remover também estes itens.
+  - **Apps da Store:** 3D Viewer, Dev Home, Remote Desktop Client, Tips, Bing Search, Get Help, Mixed Reality, Microsoft 365 (Office), People, Skype, To Do, Copilot, Family, Filmes e TV, Outlook for Windows, Quick Assist, Sticky Notes, Phone Link, Cortana, Feedback Hub, News, OneNote, Solitaire Collection, Teams e Wallet. Os pacotes provisionados também são removidos.
+  - **Recursos do Windows:** WordPad, reconhecimento facial do Windows Hello, Gravador de Passos, Quick Assist, escrita à mão (todos os idiomas), Internet Explorer e Recall.
+  - **OneDrive** (desinstalado) e **OneSync** (serviço de sincronização desativado).
+- O Debloat mostra o progresso item por item: `[OK]` (removido), `[--]` (já não estava instalado) e `[CHECK]` (o Windows não deixou remover).
+
+### Alterado
+- Título do menu principal e demais referências atualizados para **0.1.3**.
+- A opção **R – Reversões / Correções** deixou de existir no menu principal, já que cada menu tem a própria reversão. O menu de Reversões continua acessível pela opção **R** dentro de **Ajustes do Windows**.
+- Texto da tela inicial atualizado: a reversão agora é indicada pela opção **Reverter** de cada menu, junto com **Backup / Restauração [P]**.
+- A remoção de apps do Debloat passou a usar uma única rotina PowerShell, compartilhada pela opção 2 e por **A – Aplicar tudo**, no lugar dos dois blocos duplicados. Todos os apps que já eram removidos continuam na lista (Weather, Maps, Apps Bing e os pacotes antigos).
+- **Otimizações gerais:** a linha que gravava `0` nas Teclas do Mouse e nas Teclas de Filtro foi separada; as Teclas de Filtro continuam em `0` e as Teclas do Mouse passam a ter configuração própria (`Flags` em `0`).
+
+### Removido
+- Opção **R** do menu principal (substituída pela **D**).
+
+## [0.1.2] - 2026-11-22
 
 Versão em desenvolvimento: reúne a nova aba de **Rede**, opções adicionais de **Disco**, **Jogos e Tela** e **CPU**, melhorias no Debloat, simulação, registros de sessão, backups e correções nos menus. Todas as alterações abaixo fazem parte da mesma versão **0.1.2**.
 

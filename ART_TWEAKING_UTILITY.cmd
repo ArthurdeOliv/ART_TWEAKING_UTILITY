@@ -1,5 +1,5 @@
 @echo off
-Set Version=0.1.2
+Set Version=0.1.3
 
 :: Color Codes
 set w=[97m
@@ -26,7 +26,7 @@ chcp 65001 >nul 2>&1
 cls 
 echo.
 echo.
-echo.               %w%ART TWEAKING UTILITY V0.1.2 %B%
+echo.               %w%ART TWEAKING UTILITY V0.1.3 %B%
 echo. %b%╔════════════════════════════════════════════════════╗
 echo. %b%║                                                    ║
 echo. %b%║   %w% Verificando privilegios de administrador... %b%    %b%║
@@ -82,7 +82,7 @@ chcp 65001 >nul 2>&1
 CLS
 echo.
 echo.
-echo.                                                                                                    %W%ART TWEAKING UTILITY VERSION 0.1.2
+echo.                                                                                                    %W%ART TWEAKING UTILITY VERSION 0.1.3
 echo.
 echo.                                          %p%░██╗░░░░░░░██╗            ██████████╗            ██╗░░░░░░░░           ░████████╗░           ░████████╗░           ███╗░░░███╗           ██████████╗
 echo.                                          %p%░██║░░██╗░░██║            ██╔═══════╝            ██║░░░░░░░░           ██╔═════██╗           ██╔═════██╗           ████╗░████║           ██╔═══════╝
@@ -103,9 +103,9 @@ echo.                                                                           
 echo.
 echo.                                                        Digite um NUMERO no teclado e pressione ENTER para escolher uma opcao. Leia todos os avisos, nao aperte botoes sem ler.
 echo.
-echo.                                                        Voce pode desfazer a maioria das alteracoes com Reversoes / Correcoes [R] e Backup / Restauracao [P] no menu principal.
+echo.                                                    Voce pode desfazer a maioria das alteracoes com a opcao Reverter de cada menu e com Backup / Restauracao [P] no menu principal.
 echo.
-echo.                                                                      %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.2 * Atualizado em 22 de Novembro de 2026
+echo.                                                                      %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.3 * Atualizado em 23 de Novembro de 2026
 echo.                                          %b%════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════%w%
 echo.
 echo.
@@ -125,7 +125,7 @@ CLS
 cls
 echo.
 echo.
-echo.                                                                                           %W%ART TWEAKING UTILITY VERSION 0.1.2
+echo.                                                                                           %W%ART TWEAKING UTILITY VERSION 0.1.3
 echo.
 echo.                                                   %p%███████╗░ ████████╗ ░███████╗ █████████╗ ░██████╗░ ███████╗░ ███████╗     ██████╗░░█████╗░██╗███╗░░██╗█████████╗
 echo.                                                   %p%██╔═══██╗ ██╔═════╝ ██╔═════╝ ╚═══██╔══╝ ██╔═══██╗ ██╔═══██╗ ██╔════╝     ██╔══██╗██╔══██╗██║████╗░██║╚═══██╔══╝
@@ -399,10 +399,10 @@ echo.
 echo.                                             %b%╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 echo.                                             %b%║%p%░░░░░█████╗░██████╗░████████╗░░░░░░░░░░██╗░░░██╗████████╗██╗██╗░░░░░██╗████████╗██╗░░░██╗░░░░░░░░░░█████╗░░░░░░███╗░░░░░██████╗░░░░░%b%%b%║
 echo.                                             %b%║%p%░░░░██╔══██╗██╔══██╗╚══██╔══╝░░░░░░░░░░██║░░░██║╚══██╔══╝██║██║░░░░░██║╚══██╔══╝╚██╗░██╔╝░░░░░░░░░██╔══██╗░░░░████║░░░░░╚════██╗░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░███████║██████╔╝░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░╚████╔╝░░░░░░░░░░██║░░██║░░░██╔██║░░░░░░░███╔═╝░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░██╔══██║██╔══██╗░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░░╚██╔╝░░░░░░░░░░░██║░░██║░░░╚═╝██║░░░░░██╔══╝░░░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░██║░░██║██║░░██║░░░██║░░░░░░░░░░░░░╚██████╔╝░░░██║░░░██║███████╗██║░░░██║░░░░░░██║░░░░░░░░░░░░╚█████╔╝██╗███████╗██╗███████╗░░░░%b%%b%║
-echo.                                             %b%║%p%░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░░░░░░░░░░░╚═════╝░░░░╚═╝░░░╚═╝╚══════╝╚═╝░░░╚═╝░░░░░░╚═╝░░░░░░░░░░░░░╚════╝░╚═╝╚══════╝╚═╝╚══════╝░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░███████║██████╔╝░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░╚████╔╝░░░░░░░░░░██║░░██║░░░██╔██║░░░░░░█████╔╝░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░██╔══██║██╔══██╗░░░██║░░░░░░░░░░░░░██║░░░██║░░░██║░░░██║██║░░░░░██║░░░██║░░░░░╚██╔╝░░░░░░░░░░░██║░░██║░░░╚═╝██║░░░░░░╚═══██╗░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░██║░░██║██║░░██║░░░██║░░░░░░░░░░░░░╚██████╔╝░░░██║░░░██║███████╗██║░░░██║░░░░░░██║░░░░░░░░░░░░╚█████╔╝██╗███████╗██╗██████╔╝░░░░%b%%b%║
+echo.                                             %b%║%p%░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░░░░░░░░░░░╚═════╝░░░░╚═╝░░░╚═╝╚══════╝╚═╝░░░╚═╝░░░░░░╚═╝░░░░░░░░░░░░░╚════╝░╚═╝╚══════╝╚═╝╚═════╝░░░░░%b%%b%║
 echo.                                             %b%╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║         %p%[%w%1%p%]%w% Otimizacoes Gerais            %p%[%w%2%p%]%w% Otimizacao de Mouse e Teclado      %p%[%w%3%p%]%w% Ajustes do Windows                   %b%         %b%║
@@ -417,12 +417,12 @@ echo.                                             %b%║         %p%[%w%13%p%]%w
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
 echo.                                             %b%║                                                                                                                                    ║
-echo.                                             %b%║         %p%[%w%R%p%]%w% Reversoes / Correcoes         %p%[%w%X%p%]%w% Sair do Utilitario                 %p%[%w%P%p%]%w% Backup / Restauracao                 %b%         %b%║
+echo.                                             %b%║         %p%[%w%D%p%]%w% Baixar pasta Tools            %p%[%w%X%p%]%w% Sair do Utilitario                 %p%[%w%P%p%]%w% Backup / Restauracao                 %b%         %b%║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%║                                                                                                                                    ║
-echo.                                             %b%║                   %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.2 * Atualizado em 22 de Novembro de 2026%b%                   %b%║
+echo.                                             %b%║                   %w%Feito e distribuido por ART TWEAKS, 2026 * Versao 0.1.3 * Atualizado em 23 de Novembro de 2026%b%                   %b%║
 echo.                                             %b%║                                                                                                                                    ║
 echo.                                             %b%╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
@@ -445,7 +445,7 @@ if /i %input% == 13 goto 13
 if /i %input% == 14 goto 15
 if /i %input% == 15 goto 14
 
-if /i %input% == R goto revert
+if /i %input% == D goto dl_tools
 if /i %input% == P goto backupmenu
 if /i %input% == X goto Exit
 
@@ -1573,191 +1573,7 @@ Reg.exe add "HKCU\Software\Microsoft\Office\16.0\OSM\preventedsolutiontypes" /v 
 Reg.exe add "HKCU\Software\Microsoft\Office\16.0\OSM\preventedsolutiontypes" /v "templatefiles" /t REG_DWORD /d "1" /f
 
 ::7
-cls
-chcp 437 > nul
-echo.
-echo.
-echo [                              ] 0%%
-echo.
-echo %w%- Desinstalando BingWeather (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.BingWeather* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=                             ] 4%%
-echo.
-echo %w%- Desinstalando GetHelp (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.GetHelp* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [===                           ] 9%%
-echo.
-echo %w%- Desinstalando Getstarted (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Getstarted* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [====                          ] 13%%
-echo.
-echo %w%- Desinstalando Messaging (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Messaging* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=====                         ] 17%%
-echo.
-echo %w%- Desinstalando Microsoft3DViewer (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Microsoft3DViewer* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=======                       ] 22%%
-echo.
-echo %w%- Desinstalando MicrosoftSolitaireCollection (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [========                      ] 26%%
-echo.
-echo %w%- Desinstalando MicrosoftStickyNotes (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.MicrosoftStickyNotes* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=========                     ] 30%%
-echo.
-echo %w%- Desinstalando MixedReality.Portal (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.MixedReality.Portal* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==========                    ] 35%%
-echo.
-echo %w%- Desinstalando OneConnect (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.OneConnect* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [============                  ] 39%%
-echo.
-echo %w%- Desinstalando People (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.People* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=============                 ] 43%%
-echo.
-echo %w%- Desinstalando Print3D (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Print3D* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==============                ] 48%%
-echo.
-echo %w%- Desinstalando SkypeApp (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.SkypeApp* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [================              ] 52%%
-echo.
-cls
-
-echo.
-echo.
-echo [=================             ] 57%%
-echo.
-echo %w%- Desinstalando WindowsMaps (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.WindowsMaps* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==================            ] 61%%
-echo.
-echo %w%- Desinstalando WindowsFeedbackHub (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [====================          ] 65%%
-echo.
-cls
-
-echo.
-echo.
-echo [=====================         ] 70%%
-echo.
-cls
-
-echo.
-echo.
-echo [======================        ] 74%%
-echo.
-echo %w%- Desinstalando 3dBuilder (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.3dBuilder* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=======================       ] 78%%
-echo.
-echo %w%- Desinstalando Apps Bing (Microsoft.Bing*) (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Bing* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=========================     ] 83%%
-echo.
-echo %w%- Desinstalando CommsPhone (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *CommsPhone* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==========================    ] 87%%
-echo.
-echo %w%- Desinstalando Drawboard PDF (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Drawboard* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [===========================   ] 91%%
-echo.
-echo %w%- Desinstalando Sway (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Office.Sway* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [============================= ] 96%%
-echo.
-echo %w%- Desinstalando WindowsPhone (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *WindowsPhone* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==============================] 100%%
-echo %w%- Finalizado! %b%
-chcp 65001 > nul
+call :artps apps_remove
 
 ::8
 echo %w% - Desativando Servicos e Recursos Relacionados a Cortana%b%
@@ -2095,190 +1911,7 @@ goto :windows
 
 :d4
 cls
-chcp 437 > nul
-
-echo.
-echo.
-echo [                              ] 0%%
-echo.
-echo %w%- Desinstalando BingWeather (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.BingWeather* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=                             ] 4%%
-echo.
-echo %w%- Desinstalando GetHelp (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.GetHelp* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [===                           ] 9%%
-echo.
-echo %w%- Desinstalando Getstarted (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Getstarted* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [====                          ] 13%%
-echo.
-echo %w%- Desinstalando Messaging (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Messaging* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=====                         ] 17%%
-echo.
-echo %w%- Desinstalando Microsoft3DViewer (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Microsoft3DViewer* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=======                       ] 22%%
-echo.
-echo %w%- Desinstalando MicrosoftSolitaireCollection (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [========                      ] 26%%
-echo.
-echo %w%- Desinstalando MicrosoftStickyNotes (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.MicrosoftStickyNotes* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=========                     ] 30%%
-echo.
-echo %w%- Desinstalando MixedReality.Portal (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.MixedReality.Portal* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==========                    ] 35%%
-echo.
-echo %w%- Desinstalando OneConnect (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.OneConnect* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [============                  ] 39%%
-echo.
-echo %w%- Desinstalando People (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.People* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=============                 ] 43%%
-echo.
-echo %w%- Desinstalando Print3D (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Print3D* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==============                ] 48%%
-echo.
-echo %w%- Desinstalando SkypeApp (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.SkypeApp* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [================              ] 52%%
-echo.
-cls
-
-echo.
-echo.
-echo [=================             ] 57%%
-echo.
-echo %w%- Desinstalando WindowsMaps (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.WindowsMaps* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==================            ] 61%%
-echo.
-echo %w%- Desinstalando WindowsFeedbackHub (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [====================          ] 65%%
-echo.
-cls
-
-echo.
-echo.
-echo [=====================         ] 70%%
-echo.
-cls
-
-echo.
-echo.
-echo [======================        ] 74%%
-echo.
-echo %w%- Desinstalando 3dBuilder (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.3dBuilder* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=======================       ] 78%%
-echo.
-echo %w%- Desinstalando Apps Bing (Microsoft.Bing*) (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Bing* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [=========================     ] 83%%
-echo.
-echo %w%- Desinstalando CommsPhone (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *CommsPhone* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==========================    ] 87%%
-echo.
-echo %w%- Desinstalando Drawboard PDF (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Drawboard* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [===========================   ] 91%%
-echo.
-echo %w%- Desinstalando Sway (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *Microsoft.Office.Sway* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [============================= ] 96%%
-echo.
-echo %w%- Desinstalando WindowsPhone (removendo apps pre-instalados) %b%
-powershell -NoProfile -Command "Get-AppxPackage -AllUsers *WindowsPhone* | Remove-AppxPackage -AllUsers" >nul 2>&1
-cls
-
-echo.
-echo.
-echo [==============================] 100%%
-echo %w%- Finalizado! %b%
+call :artps apps_remove
 
 chcp 65001 > nul
 echo.
@@ -3259,9 +2892,16 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "G
 echo %w% - Garantindo MouseThreshold1 e MouseThreshold2 em 0%b%
 Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold1" /t REG_SZ /d "0" /f >nul 2>&1
 Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold2" /t REG_SZ /d "0" /f >nul 2>&1
-echo %w% - Garantindo Flags das Teclas do Mouse e das Teclas de Filtro em 0%b%
-Reg.exe add "HKCU\Control Panel\Accessibility\MouseKeys" /v "Flags" /t REG_SZ /d "0" /f >nul 2>&1
+echo %w% - Desativando Teclas de Filtro%b%
 Reg.exe add "HKCU\Control Panel\Accessibility\Keyboard Response" /v "Flags" /t REG_SZ /d "0" /f >nul 2>&1
+::Teclas de Aderencia: atalho (Shift x5), icone na barra, bloqueio com 2 toques, desligar com 2 teclas e som, tudo desativado (26 = recurso disponivel + confirmacao + som de atalho, sem nenhuma opcao ativa)
+echo %w% - Desativando opcoes das Teclas de Aderencia (atalho, icone, bloqueio, desligar com 2 teclas, som)%b%
+Reg.exe add "HKCU\Control Panel\Accessibility\StickyKeys" /v "Flags" /t REG_SZ /d "26" /f >nul 2>&1
+::Teclas do Mouse: Flags em 0 (desativadas, sem atalho, sem aviso, sem som, sem icone, sem CTRL/SHIFT)
+echo %w% - Configurando Teclas do Mouse (Flags em 0: desativadas, sem atalho/aviso/som/icone)%b%
+Reg.exe add "HKCU\Control Panel\Accessibility\MouseKeys" /v "Flags" /t REG_SZ /d "0" /f >nul 2>&1
+Reg.exe add "HKCU\Control Panel\Accessibility\MouseKeys" /v "MaximumSpeed" /t REG_SZ /d "80" /f >nul 2>&1
+Reg.exe add "HKCU\Control Panel\Accessibility\MouseKeys" /v "TimeToMaximumSpeed" /t REG_SZ /d "3000" /f >nul 2>&1
 
 ::nfts
 echo %w% - NFTS Tweaks%b%
@@ -4437,6 +4077,30 @@ goto backupmenu
 if not exist "%USERPROFILE%\ART_Backups" md "%USERPROFILE%\ART_Backups"
 start "" explorer "%USERPROFILE%\ART_Backups"
 goto backupmenu
+
+::Opcao D do menu geral: baixa a pasta tools do repositorio no GitHub e salva ao lado deste .cmd
+:dl_tools
+cls
+echo.
+echo %w% - Baixando a pasta tools do GitHub...%b%
+echo %w%   Destino: %~dp0tools%b%
+echo.
+chcp 437 >nul
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$ErrorActionPreference='Stop'; try { [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12; $z=Join-Path $env:TEMP 'ART_repo.zip'; $x=Join-Path $env:TEMP 'ART_repo_x'; if(Test-Path $x){Remove-Item $x -Recurse -Force}; Invoke-WebRequest -UseBasicParsing -Uri 'https://github.com/ArthurdeOliv/ART_TWEAKING_UTILITY/archive/refs/heads/main.zip' -OutFile $z; Expand-Archive -Path $z -DestinationPath $x -Force; $root=Get-ChildItem $x -Directory | Select-Object -First 1; $src=Join-Path $root.FullName 'tools'; if(-not (Test-Path $src)){ throw 'Pasta tools nao encontrada no repositorio' }; $dst=Join-Path '%~dp0' 'tools'; New-Item -ItemType Directory -Path $dst -Force | Out-Null; Copy-Item -Path (Join-Path $src '*') -Destination $dst -Recurse -Force; Remove-Item $z -Force; Remove-Item $x -Recurse -Force; exit 0 } catch { Write-Host $_.Exception.Message; exit 1 }"
+set "dl_err=!errorlevel!"
+chcp 65001 >nul
+echo.
+if not "!dl_err!"=="0" goto dl_tools_fail
+echo %w% - Concluido. Pasta tools atualizada em: %~dp0tools%b%
+start "" explorer "%~dp0tools"
+goto dl_tools_end
+:dl_tools_fail
+echo %w% - Falhou. Verifique sua conexao com a internet e tente novamente.%b%
+:dl_tools_end
+echo.
+echo %w% Pressione qualquer tecla para voltar ao menu...%b%
+pause > nul
+goto menu
 
 
 :win11menu
@@ -6416,6 +6080,131 @@ function Get-DpcSample {
 }
 
 
+# ===================== DEBLOAT: APPS E RECURSOS INDESEJADOS =====================
+# Lista = apps marcados na ferramenta de bloatware do Windows Setup (+ pacotes antigos que ja eram removidos)
+function Invoke-AppsRemove {
+    Write-Title 'DEBLOAT: removendo apps e recursos indesejados'
+
+    # ---- Apps da Microsoft Store (Appx) ----
+    $apps = @(
+        @('3D Viewer', 'Microsoft.Microsoft3DViewer'),
+        @('Dev Home', 'Microsoft.DevHome'),
+        @('Remote Desktop Client', 'Microsoft.RemoteDesktop'),
+        @('Tips', 'Microsoft.Getstarted'),
+        @('Bing Search', 'Microsoft.BingSearch'),
+        @('Get Help', 'Microsoft.GetHelp'),
+        @('Mixed Reality', 'Microsoft.MixedReality.Portal'),
+        @('Office 365 (Microsoft 365)', 'Microsoft.MicrosoftOfficeHub'),
+        @('People', 'Microsoft.People'),
+        @('Skype', 'Microsoft.SkypeApp'),
+        @('To Do', 'Microsoft.Todos'),
+        @('Copilot', 'Microsoft.Copilot'),
+        @('Copilot (provider)', 'Microsoft.Windows.Ai.Copilot.Provider'),
+        @('Family', 'MicrosoftCorporationII.MicrosoftFamily'),
+        @('Movies & TV', 'Microsoft.ZuneVideo'),
+        @('Outlook for Windows', 'Microsoft.OutlookForWindows'),
+        @('Quick Assist (app)', 'MicrosoftCorporationII.QuickAssist'),
+        @('Sticky Notes', 'Microsoft.MicrosoftStickyNotes'),
+        @('Your Phone / Phone Link', 'Microsoft.YourPhone'),
+        @('Phone Link (CrossDevice)', 'MicrosoftWindows.CrossDevice'),
+        @('Cortana', 'Microsoft.549981C3F5F10'),
+        @('Feedback Hub', 'Microsoft.WindowsFeedbackHub'),
+        @('News', 'Microsoft.BingNews'),
+        @('OneNote', 'Microsoft.Office.OneNote'),
+        @('Solitaire Collection', 'Microsoft.MicrosoftSolitaireCollection'),
+        @('Teams', 'MicrosoftTeams'),
+        @('Teams (novo)', 'MSTeams'),
+        @('Wallet', 'Microsoft.Wallet'),
+        @('Messaging (antigo)', 'Microsoft.Messaging'),
+        @('OneConnect (antigo)', 'Microsoft.OneConnect'),
+        @('Print 3D (antigo)', 'Microsoft.Print3D'),
+        @('3D Builder (antigo)', 'Microsoft.3dBuilder'),
+        @('CommsPhone (antigo)', 'CommsPhone'),
+        @('Drawboard PDF (antigo)', 'Drawboard'),
+        @('Sway (antigo)', 'Microsoft.Office.Sway'),
+        @('WindowsPhone (antigo)', 'WindowsPhone'),
+        @('Weather (BingWeather)', 'Microsoft.BingWeather'),
+        @('Maps (WindowsMaps)', 'Microsoft.WindowsMaps'),
+        @('Apps Bing (Microsoft.Bing*)', 'Microsoft.Bing')
+    )
+    $total = $apps.Count
+    $n = 0
+    $prov = @(Get-AppxProvisionedPackage -Online)
+    foreach ($a in $apps) {
+        $n++
+        $pat = '*' + $a[1] + '*'
+        $inst = @(Get-AppxPackage -AllUsers -Name $pat)
+        $pv = @($prov | Where-Object { $_.DisplayName -like $pat })
+        if ($inst.Count -eq 0 -and $pv.Count -eq 0) {
+            Write-Host ('   [--]    ({0}/{1}) {2}: ja nao esta instalado' -f $n, $total, $a[0]) -ForegroundColor DarkGray
+            continue
+        }
+        foreach ($x in $inst) { Remove-AppxPackage -Package $x.PackageFullName -AllUsers }
+        foreach ($x in $pv) { Remove-AppxProvisionedPackage -Online -PackageName $x.PackageName | Out-Null }
+        if (@(Get-AppxPackage -AllUsers -Name $pat).Count -eq 0) {
+            Write-Ok ('({0}/{1}) {2} removido' -f $n, $total, $a[0])
+        } else {
+            Write-Warn2 ('({0}/{1}) {2}: o Windows nao deixou remover' -f $n, $total, $a[0])
+        }
+    }
+
+    # ---- Recursos do Windows (capabilities) ----
+    Write-Host ''
+    Write-Host '   Recursos do Windows (pode demorar um pouco)...' -ForegroundColor White
+    $caps = @(
+        @('WordPad', 'Microsoft.Windows.WordPad~~~~*'),
+        @('Reconhecimento facial (Windows Hello)', 'Hello.Face*'),
+        @('Gravador de Passos', 'App.StepsRecorder~~~~*'),
+        @('Quick Assist', 'App.Support.QuickAssist~~~~*'),
+        @('Escrita a mao (todos os idiomas)', 'Language.Handwriting~~~*'),
+        @('Internet Explorer', 'Browser.InternetExplorer~~~~*')
+    )
+    $installed = @(Get-WindowsCapability -Online | Where-Object { $_.State -eq 'Installed' })
+    foreach ($c in $caps) {
+        $hit = @($installed | Where-Object { $_.Name -like $c[1] })
+        if ($hit.Count -eq 0) {
+            Write-Host ('   [--]    {0}: ja nao esta instalado' -f $c[0]) -ForegroundColor DarkGray
+            continue
+        }
+        foreach ($h in $hit) { Remove-WindowsCapability -Online -Name $h.Name | Out-Null }
+        $left = @(Get-WindowsCapability -Online | Where-Object { $_.Name -like $c[1] -and $_.State -eq 'Installed' })
+        if ($left.Count -eq 0) { Write-Ok ($c[0] + ' removido') } else { Write-Warn2 ($c[0] + ': nao foi possivel remover agora (pode pedir reiniciar)') }
+    }
+
+    # ---- Recursos opcionais (Internet Explorer e Recall) ----
+    foreach ($f in @(@('Internet Explorer (recurso opcional)', 'Internet-Explorer-Optional-amd64'), @('Recall', 'Recall'))) {
+        $st = Get-WindowsOptionalFeature -Online -FeatureName $f[1]
+        if (-not $st -or $st.State -eq 'Disabled') {
+            Write-Host ('   [--]    {0}: ja nao esta ativo' -f $f[0]) -ForegroundColor DarkGray
+        } else {
+            Disable-WindowsOptionalFeature -Online -FeatureName $f[1] -NoRestart | Out-Null
+            Write-Ok ($f[0] + ' desativado (pode pedir reiniciar)')
+        }
+    }
+
+    # ---- OneDrive (programa tradicional, nao e app da Store) ----
+    Get-Process -Name OneDrive | Stop-Process -Force
+    $od = Join-Path $env:SystemRoot 'SysWOW64\OneDriveSetup.exe'
+    if (-not (Test-Path $od)) { $od = Join-Path $env:SystemRoot 'System32\OneDriveSetup.exe' }
+    if (Test-Path $od) {
+        Start-Process -FilePath $od -ArgumentList '/uninstall' -Wait
+        Write-Ok 'OneDrive desinstalado'
+    } else {
+        Write-Host '   [--]    OneDrive: ja nao esta instalado' -ForegroundColor DarkGray
+    }
+
+    # ---- OneSync (nao e app: e o servico de sincronizacao de Email, Calendario e Pessoas) ----
+    $os = 'HKLM:\SYSTEM\CurrentControlSet\Services\OneSyncSvc'
+    if (Test-Path $os) {
+        Set-ItemProperty -Path $os -Name Start -Value 4
+        foreach ($s in @(Get-Service -Name 'OneSyncSvc*')) { Stop-Service -Name $s.Name -Force }
+        Write-Ok 'OneSync: servico desativado'
+    }
+
+    Write-Host ''
+    Write-Ok 'Remocao de apps concluida. Alguns itens so somem do Menu Iniciar apos reiniciar.'
+}
+
 switch ($mode) {
     'startup' { Show-StartupManager }
     'backup'  { Invoke-ARTBackup }
@@ -6448,6 +6237,7 @@ switch ($mode) {
     'disk_revert' { Invoke-DiskRevert }
     'cpu_extra' { Invoke-CpuExtra }
     'cpu_revert' { Invoke-CpuRevert }
+    'apps_remove' { Invoke-AppsRemove }
 }
 #PS_ART_END
 #BKEY HKCU\CONSOLE
